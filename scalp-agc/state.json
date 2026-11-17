@@ -1,0 +1,32 @@
+{
+  "round": 5,
+  "status": "watching",
+  "token": "AGC",
+  "note": "Dibeli via fast_buy.py (jalur cepat). Saldo AGC wallet total termasuk klaim Mode B lama — exit jual HANYA delta ini.",
+  "last_closed": {
+    "round": 4,
+    "status": "closed-loss",
+    "token": "AGC",
+    "entry_wbnb": 0.0048,
+    "entry_price_usd": 2.6253038072339844e-06,
+    "target": 3.4128949494041797e-06,
+    "stop": 2.362773426510586e-06,
+    "amount_agc": 1250402.6268904735,
+    "exit_wbnb": 0.004688085180772088,
+    "pnl_wbnb": -0.000111914819227912,
+    "exit_price_usd": 2.631e-06,
+    "bought_wib": "2026-11-09 12:44:50 WIB",
+    "sold_wib": "2026-11-09 22:02 WIB",
+    "buy_tx": "0xb806efda5885d38402b6c5f1dede9298a4a936368e62c14fda2fe3a8387af5b6",
+    "buy_block": 132530750,
+    "approve_sell_tx": "0x528ece84603169193c4fb0ba4615caa5ee110c9a966b5e2eb580ed3755bada69",
+    "approve_sell_block": 132604742,
+    "approve_sell_gas": 46068,
+    "approve_sell_gas_bnb": 3.29285909964e-06,
+    "sell_tx": "0x8ad2e36c078f714635d2b8524b3958b051ab998ef358be94957d3ebdc0c15bcc",
+    "sell_block": 132604963,
+    "sell_gas": 118229,
+    "sell_gas_bnb": 1.0610453801886e-05,
+    "close_reason": "STOP kena 21:52:47 WIB — harga $0,000002319 di bawah stop $0,0000023628 (posisi -11,7%); MCAP $289.323, m5 -9,49%. Harga lalu BOUNCE +13,16% ke $0,000002631 (di atas entry) sebelum eksekusi — stop sudah terpicu jadi exit tetap dieksekusi, fill jauh lebih baik dari level stop. Dijual HANYA delta 1.250.402,63 AGC; saldo AGC wallet tersisa 228.327,04 (klaim Mode B lama). Audit segar riskLevel 1 LOW + CAUTION 'User Reported' (bukan RISK); preview swap bersih, simulasi 0,00468855 = realisasi 0,00468809 WBNB. Gas total approve+swap 0,0000139 BNB."
+  }
+}

@@ -1,0 +1,488 @@
+{
+  "generated": "2026-11-11 ~07:10 WIB",
+  "scope": "NFT wallet agent tanpa floor di own market (59 kontrak unik)",
+  "note": "Element tidak bisa dicari dari alamat kontrak (search hanya kenal akun; URL kontrak = 404). Cari slug dari NAMA proyek.",
+  "targets": [
+    {
+      "contract": "0x3b2c00e1dfe1a1b45f93e990ffe56c5dca4670b7",
+      "name": "Agent Punks",
+      "token_ids": [
+        741
+      ],
+      "group": "no_own_market",
+      "element_status": "not_found_via_search_and_url404"
+    },
+    {
+      "contract": "0xcd4472af68801de87e970a333c71da5d12e825a3",
+      "name": "Agentic Bull",
+      "token_ids": [
+        322
+      ],
+      "group": "site_no_market"
+    },
+    {
+      "contract": "0x0691dd61f84bda232bcd0bd80f6559ecc2c00131",
+      "name": "Agentic Node",
+      "token_ids": [
+        1391
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x78edd42101e889cc3ce4b24cbb0fc774082bcaee",
+      "name": "BEWORK",
+      "token_ids": [
+        1274,
+        1275
+      ],
+      "group": "site_no_market"
+    },
+    {
+      "contract": "0x74bbdad7c027c56be30a7feac6f7371b95f1c32b",
+      "name": "BYTEBLOOM",
+      "token_ids": [
+        508
+      ],
+      "group": "empty_own_market"
+    },
+    {
+      "contract": "0xc205f8c74733d914776d66cbc4cf10bf701d96aa",
+      "name": "Bubblebruin",
+      "token_ids": [
+        757
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x0ac5591d1b980c7be16861d722e59e21e2624868",
+      "name": "Cathodex",
+      "token_ids": [
+        421
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x787b522d48084a83b8b1b0c206aa4a12b1fd1cc2",
+      "name": "Cryonyx",
+      "token_ids": [
+        407
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0xac3f9a33c653fb3ca49056cfa5edf19101debf97",
+      "name": "DOSSIER",
+      "token_ids": [
+        397
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x7f00b3aa3a3e41dc145180c4ed8a24ee568eaed4",
+      "name": "DRAGON",
+      "token_ids": [
+        91
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x485be9daa4620fcee4e2baed7cc85ea57acb44b0",
+      "name": "DRIFTWIRE",
+      "token_ids": [
+        745
+      ],
+      "group": "empty_own_market"
+    },
+    {
+      "contract": "0xf464550f1d744793893c0ce09b89269ed726d796",
+      "name": "DigDown",
+      "token_ids": [
+        5361
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0xf25e1c4dbe48383e93f5992b2e7fe7331b5a9ad0",
+      "name": "Gearotter",
+      "token_ids": [
+        204
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0xa06427fb1c58fe5313696630383d8a875eb2a7de",
+      "name": "Gelede",
+      "token_ids": [
+        540
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x29ee92a8d6dc62035d0c2b4d53b5df504d3ebe91",
+      "name": "Ghost Frog",
+      "token_ids": [
+        22
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0xb2d236ec0473792ec6727e5bf41084df3ea0137f",
+      "name": "Ghoulipop",
+      "token_ids": [
+        541
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0xcd355d1191ce9849b3a935c821a66d9df37cfe77",
+      "name": "HACKED",
+      "token_ids": [
+        1395,
+        1396
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x1458b0c132fb51bdc65b1ca7a3be484bcd9a2f77",
+      "name": "HIVE Agents",
+      "token_ids": [
+        808
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x48c977d13ef156475f086f907d8da9583e1e072e",
+      "name": "Hachiko",
+      "token_ids": [
+        839
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x74055b4afe2d8c7347e8d4c0fc23e704405f7a36",
+      "name": "HokiKoi",
+      "token_ids": [
+        64
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0xebadb5be9692b0bf25e8a5f3351c35ddc58f195d",
+      "name": "Hotpotsage",
+      "token_ids": [
+        398
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x259b5da3f44a44c89bca5ee2297582c41c758d0f",
+      "name": "Ioforge",
+      "token_ids": [
+        486
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0xccc127d1a7ef1e385757784a9878f7279bf3b19d",
+      "name": "Jinchan",
+      "token_ids": [
+        305
+      ],
+      "group": "floor_unverified"
+    },
+    {
+      "contract": "0x016b9ce7508628e4fb19e4faf3129fdc41b150d7",
+      "name": "KERNELMONK",
+      "token_ids": [
+        509
+      ],
+      "group": "empty_own_market"
+    },
+    {
+      "contract": "0x68a971c9d2b54ae86daf59cd665e40f3e087fb7f",
+      "name": "Kirinova",
+      "token_ids": [
+        377
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x9aab6e84096a780f9400cdd4e230faa41b4545f2",
+      "name": "LANTERNFIELD",
+      "token_ids": [
+        516
+      ],
+      "group": "site_no_market"
+    },
+    {
+      "contract": "0x1edfd1e6c6b132e88f5b09b1dbe025037b5b0539",
+      "name": "Lensorb",
+      "token_ids": [
+        392
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x65b3b58c6fe1b98087b022ab41c54a2987494ddf",
+      "name": "Lorith",
+      "token_ids": [
+        498
+      ],
+      "group": "site_no_market"
+    },
+    {
+      "contract": "0xc996a35d6da945519ef5d3572c5a8cdc845ae842",
+      "name": "Lumen Genesis",
+      "token_ids": [
+        2321
+      ],
+      "group": "floor_unverified"
+    },
+    {
+      "contract": "0xb1636010fb87f50574f76f6644b7cd306a6a4d1f",
+      "name": "MYCELIX",
+      "token_ids": [
+        508
+      ],
+      "group": "empty_own_market"
+    },
+    {
+      "contract": "0xcc844748c64b9b8e45ac4504553c9757c7cdb7e0",
+      "name": "Marbleworks",
+      "token_ids": [
+        458
+      ],
+      "group": "site_no_market"
+    },
+    {
+      "contract": "0xc4059d2f9f6f86695896e68f3e73e1e6cc3791c8",
+      "name": "Mars Nexus",
+      "token_ids": [
+        1448
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x3df52d687a7a5f79fc1be45fecd1b2ec1df622a7",
+      "name": "Merith",
+      "token_ids": [
+        1144,
+        1145,
+        1146,
+        1147,
+        1148
+      ],
+      "group": "site_no_market"
+    },
+    {
+      "contract": "0x666830a348414d3e8b2d341d1ec9d562211034af",
+      "name": "Mummibo",
+      "token_ids": [
+        216
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0xcc67bdae1457f8b0914fbfd3fd93b4b1831f0401",
+      "name": "Neijuanbo",
+      "token_ids": [
+        697
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x3adfbba26d3674477aa21b0cf2e4c2bc643ff85b",
+      "name": "Neonkoi",
+      "token_ids": [
+        273
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0xcc5608a7f5a5bc8f1beabcd010a8c0066a0243ae",
+      "name": "Neonraven",
+      "token_ids": [
+        370
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x6e2dfd975da6a54d18d1816029c6657454e61c9a",
+      "name": "Neptuno",
+      "token_ids": [
+        203
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x4a2bb7b24c39ca548b050ad0c0affea5e6e04af2",
+      "name": "NianNian",
+      "token_ids": [
+        1195
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x8d5a0555446d37afaba75e36da318646a4b32420",
+      "name": "ORBITJANITOR",
+      "token_ids": [
+        552
+      ],
+      "group": "empty_own_market"
+    },
+    {
+      "contract": "0xce18531f9f639ca2351ca15fb2032d925b917472",
+      "name": "Oddlode Drills",
+      "token_ids": [
+        814
+      ],
+      "group": "floor_unverified"
+    },
+    {
+      "contract": "0x0c4370ede2500511ec9fd5a7c69c47e7ee4118e4",
+      "name": "Phoenixi",
+      "token_ids": [
+        207
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0xe4ca7aaa82253717c0d897c10d58d59821631509",
+      "name": "Plutopop",
+      "token_ids": [
+        516
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0xd87adb2e47979d6cb323896b1a9320e0dd132213",
+      "name": "Ptah POA",
+      "token_ids": [
+        29643
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x952b7c0b8e63b3db965d49ec91d4eb73d8bbc264",
+      "name": "Qilinora",
+      "token_ids": [
+        689
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x96e879c79b1191a0954022c7483c44b2ee522ba1",
+      "name": "RIMEVAULT",
+      "token_ids": [
+        504
+      ],
+      "group": "empty_own_market"
+    },
+    {
+      "contract": "0x8f8705a91cb8af615ce35179b0d33200ade71dab",
+      "name": "SeanceSociety",
+      "token_ids": [
+        326
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0xbd297cb5158f4dca02c336a59556fdbfa6609a70",
+      "name": "Servobun",
+      "token_ids": [
+        517
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0xcfb72b0e311796c478c6b74c1cd4592bbaa17aab",
+      "name": "Stampooor",
+      "token_ids": [
+        751
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x61c360b0fa3fef5c61728756e0fb574c66d73663",
+      "name": "Strawhex",
+      "token_ids": [
+        628
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0xd65913933ada0b429de8f17edbadf5fa24aa94e2",
+      "name": "SynapseSquad",
+      "token_ids": [
+        184
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0xdaa48eed214edbcf1ff76a9540c819b8afe4bed7",
+      "name": "Tempestara",
+      "token_ids": [
+        656
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x157d860e30b6c6d4dc0abe3bd6e66e659a9d524f",
+      "name": "Tri333",
+      "token_ids": [
+        590
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x1a7a8bbb49e3e8cf951996789fd69d4c7524a2b4",
+      "name": "Vault-Crack",
+      "token_ids": [
+        752
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x3f73b5a2b56a16e4204053c6a2cd51f2b3e4188e",
+      "name": "Veyanth",
+      "token_ids": [
+        938,
+        939,
+        940
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x06ab825d14454174819e1c08a6e72c4b5bbf78fe",
+      "name": "Voltmohawk",
+      "token_ids": [
+        936
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x1aa9797cc762b838388566daa45a56b1709f4bbe",
+      "name": "WAR3",
+      "token_ids": [
+        2511
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x5bf46ef8e5e09ffffd928e30077b4d4674cba4b0",
+      "name": "Xianyulo",
+      "token_ids": [
+        507
+      ],
+      "group": "no_own_market"
+    },
+    {
+      "contract": "0x672c1df4f7121dacbd3504995441c47d2fabcddc",
+      "name": "Zapcourier",
+      "token_ids": [
+        387
+      ],
+      "group": "no_own_market"
+    }
+  ]
+}

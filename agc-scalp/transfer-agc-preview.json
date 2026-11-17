@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "data": {
+    "requestId": "c5a8b499247d485a8868afb59547621c",
+    "parsedTx": {
+      "transactionType": "Send",
+      "amount": 1.7431553497027197e+24,
+      "isMax": false,
+      "recipient": "0x71bcee31054137448e78f2e28dbe3160aae3e235",
+      "contractAddress": "0x63dea5aCdbE1F27c968907D08610A5f0A0284bA6",
+      "memo": null,
+      "transactionTypeTranslationKey": null
+    },
+    "simulationResult": {
+      "gasTokenFromData": 0,
+      "balanceChanges": [
+        {
+          "contractAddress": "0x63dea5aCdbE1F27c968907D08610A5f0A0284bA6",
+          "change": -1.7431553497027197e+24,
+          "owner": "0xeb237f6f9fb4e826739f0954e9768914f28b2c2e",
+          "tokenType": "Erc20",
+          "tokenId": null
+        }
+      ],
+      "simulationErrorDetail": null,
+      "simulationCode": "000000000",
+      "preCheckCode": "",
+      "authorityChanges": [],
+      "allowanceChanges": []
+    },
+    "risks": {
+      "addresses": {},
+      "riskDetails": [],
+      "riskBehaviors": []
+    },
+    "tokenInfos": {
+      "0x63dea5aCdbE1F27c968907D08610A5f0A0284bA6": {
+        "name": "Agentic Coin",
+        "symbol": "AGC",
+        "decimals": 18,
+        "icon": "/images/web3-data/public/token/logos/FA3B14DBDE6A20A6906EA9077C6A251A.png",
+        "price": "0.000007856393334592033646112052184981"
+      }
+    },
+    "requireConfirmation": false,
+    "expiresAt": 1793935498418,
+    "gasLimit": null
+  }
+}

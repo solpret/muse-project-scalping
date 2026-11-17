@@ -1,0 +1,44 @@
+{
+  "agc_before": 228481.5690574964,
+  "bnb_before": 0.000387697300936148,
+  "quote_wbnb": 0.000568314127585505,
+  "min_out_wbnb": 0.000539898421206229,
+  "audit": {
+    "riskLevel": 1,
+    "hasResult": true,
+    "riskAlert": null,
+    "risk_hit": false,
+    "caution_hits": [
+      [
+        "SCAM_RISK",
+        "User Reported"
+      ]
+    ],
+    "sellTax": "0.02"
+  },
+  "goplus": {
+    "is_honeypot": "0",
+    "hidden_owner": "0",
+    "buy_tax": "0.02",
+    "sell_tax": "0.02",
+    "cannot_sell_all": "0",
+    "is_mintable": "1"
+  },
+  "steps": {
+    "swap": {
+      "tx": "0x2954767674fdafe651d55b536663c32e9630466370cb17065267c33df8132de3",
+      "block": 132859930,
+      "gas": 130541,
+      "sim_wbnb": 0.000556947908619974
+    },
+    "unwrap": {
+      "tx": "0xf999c38385036126b00bb2ce18cab7778d4234283a5d64e3f2a34ac8d6cf9142",
+      "block": 132859987,
+      "gas": 30416
+    }
+  },
+  "agc_final": 0.0,
+  "wbnb_final": 0.0,
+  "bnb_final": 0.000934275843132583,
+  "bnb_delta": 0.000546578542196435
+}

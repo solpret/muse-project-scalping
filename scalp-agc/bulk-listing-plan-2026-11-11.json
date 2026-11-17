@@ -1,0 +1,797 @@
+{
+  "generated_wib": "2026-11-11 ~07:00-07:10 WIB",
+  "scope": "WALLET AGENT SAJA (0xeb237F6f9FB4e826739F0954e9768914F28b2c2E) \u2014 koreksi user 11 Nov ~06:41 WIB; wallet utama TIDAK dicek/dicatat",
+  "source": "~/workspace/scalp-agc/nft-holdings-check-2026-11-11.json (163 item, ownerOf terverifikasi live 11 Nov ~06:20-06:55 WIB) + baca ulang on-chain live + cek situs proyek 11 Nov ~07:00 WIB",
+  "method": {
+    "rpc": "bsc-dataseed1/2, bsc.nodereal.io \u2014 eth_call tunggal sequential, tanpa Ankr, tanpa eth_getLogs",
+    "calldata": "programatik (keccak selector + format 064x); ABI market dari Sourcify v2 (exact_match untuk ACAT/Slag/6 market kosong/ADV/Jinchan/Oddlode; Lumen 404)",
+    "floor": "2x baca (listedCount + listingsPage) untuk ACAT & Slag; floor = harga valid terendah",
+    "element": "TIDAK dipakai sebagai market executable (hanya fallback manual, tidak dicek per koleksi)",
+    "batas": "untuk 52 item tanpa situs/market di catatan, TIDAK dilakukan perburuan situs baru per item (cek pagi + snapshot sudah tidak menemukan market); bila proyek meluncurkan market nanti, item itu perlu dicek ulang"
+  },
+  "executable": [
+    {
+      "name": "ACAT #1817",
+      "tokenId": 1817,
+      "contract_nft": "0x28a38A372639E8C481aD41B9B16E52c3c6366ACC",
+      "market": "0x3424De685702E8d63BaAC20BB67d1a205db89427",
+      "market_name": "ACATMarket",
+      "market_sourcify": "exact_match",
+      "nft_match": "NFT() market = kontrak NFT (terverifikasi live)",
+      "floor": 19000,
+      "floor_currency": "ACN",
+      "floor_currency_address": "0x0b5a0aafc48b4c56d2ffaafd43fd5a1b344f3d92",
+      "floor_currency_decimals": 18,
+      "floor_raw": 19000000000000000000000,
+      "floor_token_id": 3106,
+      "listedCount": 74,
+      "valid_listings": 73,
+      "fee_bps": 500,
+      "fee_note": "5% dari harga jual (feeBps 500)",
+      "is_listed": false,
+      "approvalNeeded": true,
+      "approval_status": "isApprovedForAll(agent,market)=false; getApproved(1817)=0x0",
+      "reads": "listedCount 2x identik (74); listingsPage(0,74) 2x identik; floor 19.000 ACN dua kali",
+      "value_note": "ACN TIDAK punya pair PCS (getPair ACN/WBNB = 0x0) \u2014 nilai 19.000 ACN dalam BNB tidak terverifikasi; hasil jual diterima dalam ACN, bukan BNB"
+    },
+    {
+      "name": "ADVAGENT #554",
+      "tokenId": 554,
+      "contract_nft": "0x7635ef16370ef490298649a188c9205d1d7fda67",
+      "market": "0x9d4f73c7c92bb4f680c770d0ed3c71527297a256",
+      "market_name": "AdventureMarketplace",
+      "market_sourcify": "exact_match",
+      "nft_match": "listing(0) merujuk kontrak NFT 0x7635ef... sebagai NFT yang dijual",
+      "floor": 0.001,
+      "floor_currency": "BNB",
+      "floor_wei": 1000000000000000,
+      "floor_token_id": 494,
+      "floor_payToken_enum": 0,
+      "floor_payToken_note": "enum 0 \u2014 diduga BNB (market punya view USDC()/USDT(), jadi 0 = native); satu-satunya listing aktif",
+      "listedCount": null,
+      "listedCount_note": "market tidak punya listedCount(); nextListingId()=1 -> hanya listing id 0 yang ada",
+      "active_listings": 1,
+      "fee_bps": 500,
+      "fee_note": "5% dari harga jual (FEE_BPS 500)",
+      "is_listed": false,
+      "approvalNeeded": true,
+      "approval_status": "isApprovedForAll(agent,market)=false; getApproved(554)=0x0",
+      "reads": "nextListingId + listings(0) + listings(554) dibaca live; floor 0,001 BNB = satu-satunya listing aktif (#494)",
+      "value_note": "gross 0,001 BNB; net setelah fee 5% = 0,00095 BNB bila laku"
+    }
+  ],
+  "dust": [
+    {
+      "name": "EMBERANVIL #946",
+      "tokenId": 946,
+      "contract_nft": "0x7673c596a6702d32f844266dc2ca7b1fd6d7df21",
+      "market": "0xb8aa1d77778a107f59906bae4a0b1443e0cd53af",
+      "market_name": "Slag Market",
+      "market_sourcify": "exact_match",
+      "nft_match": "NFT() market = kontrak NFT (terverifikasi live)",
+      "floor": 2.839711249073e-06,
+      "floor_currency": "BNB",
+      "floor_wei": 2839711249073,
+      "floor_token_id": 771,
+      "floor_seller": "0xd29f3212a3712160e864f81acdcb7738a67b6115",
+      "listedCount": 1,
+      "valid_listings": 1,
+      "fee_bps": 300,
+      "fee_note": "3% dari harga jual (FEE_BPS 300)",
+      "is_listed": false,
+      "approvalNeeded": true,
+      "approval_status": "isApprovedForAll(agent,market)=false; getApproved(946)=0x0",
+      "reads": "listedCount 2x identik (1); listingsPage(0,1) 2x identik; floor 0,00000284 BNB dua kali",
+      "dust_reason": "floor 0,00000284 BNB < gas satu listing (~0,0000075-0,00001 BNB) \u2014 biaya gas ~2,6x harga floor; net setelah fee 3% ~0,00000275 BNB tetap di bawah gas",
+      "value_note": "JANGAN di-listing kecuali user perintahkan eksplisit \u2014 rugi gas"
+    }
+  ],
+  "not_listable": [
+    {
+      "name": "AlienID #3333",
+      "tokenId": 3333,
+      "contract": "0xd12C42935F06B37337588B9169ba1593b534eB86",
+      "reason": "sudah ter-listing LIVE (terverifikasi pagi ini) \u2014 jangan di-list ulang"
+    },
+    {
+      "name": "AlienID #3684",
+      "tokenId": 3684,
+      "contract": "0xd12C42935F06B37337588B9169ba1593b534eB86",
+      "reason": "sudah ter-listing LIVE (terverifikasi pagi ini) \u2014 jangan di-list ulang"
+    },
+    {
+      "name": "Brutes #3967",
+      "tokenId": 3967,
+      "contract": "0x44aB9F4687d5D6cd2454266b1E548552FB924908",
+      "reason": "sudah ter-listing LIVE (terverifikasi pagi ini) \u2014 jangan di-list ulang"
+    },
+    {
+      "name": "SAFU Bots #3073",
+      "tokenId": 3073,
+      "contract": "0x763aaD3528b408bc42300DBab4Ec755cdE1D0192",
+      "reason": "sudah ter-listing LIVE (terverifikasi pagi ini) \u2014 jangan di-list ulang"
+    },
+    {
+      "name": "Agent Periodic Lab O2 #1021",
+      "tokenId": 1021,
+      "contract": "0xfE5Ab5ce9b1D86a55d70E7D0573a14D559029C18",
+      "reason": "sudah ter-listing LIVE (terverifikasi pagi ini) \u2014 jangan di-list ulang"
+    },
+    {
+      "name": "TRACE Genesis #2256",
+      "tokenId": 2256,
+      "contract": "0xe5E2c43746F3A5E713C246592095D7cf82E808Cc",
+      "reason": "sudah ter-listing LIVE (terverifikasi pagi ini) \u2014 jangan di-list ulang"
+    },
+    {
+      "name": "Motor Agent #1282",
+      "tokenId": 1282,
+      "contract": "0x86F83E98437A1DcF0e4A62828f68C1D53B3c7AB5",
+      "reason": "sudah ter-listing LIVE (terverifikasi pagi ini) \u2014 jangan di-list ulang"
+    },
+    {
+      "name": "GLOOP #2021",
+      "tokenId": 2021,
+      "contract": "0x183CBb52B3C7BCB2433d50dE0Add99B59f4DE4fE",
+      "reason": "sudah ter-listing LIVE (terverifikasi pagi ini) \u2014 jangan di-list ulang"
+    },
+    {
+      "name": "AgentsEstates #4611",
+      "tokenId": 4611,
+      "contract": "0x439643cfd023c247519518B7F73D06823E1F2fCe",
+      "reason": "sudah ter-listing TERCATAT (belum verifikasi ulang live) \u2014 jangan di-list ulang"
+    },
+    {
+      "name": "Hirelings #3927",
+      "tokenId": 3927,
+      "contract": "0x6b1D77D3DeDE3FC775ca8C7BDe08C2C2EAAb9BEA",
+      "reason": "sudah ter-listing TERCATAT (belum verifikasi ulang live) \u2014 jangan di-list ulang"
+    },
+    {
+      "name": "Hirelings #4342",
+      "tokenId": 4342,
+      "contract": "0x6b1D77D3DeDE3FC775ca8C7BDe08C2C2EAAb9BEA",
+      "reason": "sudah ter-listing TERCATAT (belum verifikasi ulang live) \u2014 jangan di-list ulang"
+    },
+    {
+      "name": "Agent Cards #1720",
+      "tokenId": 1720,
+      "contract": "0x19f125dA1985033f102CA7746Cbd1F6f512CFACd",
+      "reason": "sudah ter-listing TERCATAT (belum verifikasi ulang live) \u2014 jangan di-list ulang"
+    },
+    {
+      "name": "SEVY Genesis #9841",
+      "tokenId": 9841,
+      "contract": "0xF054C8Ca0119A2955FeF43669Ee68e7d2ab7e49A",
+      "reason": "SEVY Genesis \u2014 JANGAN jual (listing = menjual hak redeem 100 SEVY per NFT)"
+    },
+    {
+      "name": "SEVY Genesis #9843",
+      "tokenId": 9843,
+      "contract": "0xF054C8Ca0119A2955FeF43669Ee68e7d2ab7e49A",
+      "reason": "SEVY Genesis \u2014 JANGAN jual (listing = menjual hak redeem 100 SEVY per NFT)"
+    },
+    {
+      "name": "SEVY Genesis #9845",
+      "tokenId": 9845,
+      "contract": "0xF054C8Ca0119A2955FeF43669Ee68e7d2ab7e49A",
+      "reason": "SEVY Genesis \u2014 JANGAN jual (listing = menjual hak redeem 100 SEVY per NFT)"
+    },
+    {
+      "name": "SEVY Genesis #9846",
+      "tokenId": 9846,
+      "contract": "0xF054C8Ca0119A2955FeF43669Ee68e7d2ab7e49A",
+      "reason": "SEVY Genesis \u2014 JANGAN jual (listing = menjual hak redeem 100 SEVY per NFT)"
+    },
+    {
+      "name": "SEVY Genesis #9848",
+      "tokenId": 9848,
+      "contract": "0xF054C8Ca0119A2955FeF43669Ee68e7d2ab7e49A",
+      "reason": "SEVY Genesis \u2014 JANGAN jual (listing = menjual hak redeem 100 SEVY per NFT)"
+    },
+    {
+      "name": "CharMasks #1529",
+      "tokenId": 1529,
+      "contract": "0xf197F509137db1eb45b17a362bc446D48E6dAC4f",
+      "reason": "non-transferable"
+    },
+    {
+      "name": "HashDroids #5782",
+      "tokenId": 5782,
+      "contract": "0x0EED2C5e866A3792f587CAf0839941EA57fe6915",
+      "reason": "soulbound"
+    },
+    {
+      "name": "The Orzo #6702",
+      "tokenId": 6702,
+      "contract": "0x39f61c0a379f132d66fb8c2adab293e6a7595b0a",
+      "reason": "soulbound pasca-klaim ORZO"
+    },
+    {
+      "name": "BOBBIE #4023",
+      "tokenId": 4023,
+      "contract": "0x3BF121dC4c5a1Ba567F3eE801d0e447601726207",
+      "reason": "transfer terkunci \u2014 saleFinalized()=false live; listing direncanakan @0,0075 BNB sesudah finalize (cron bobbie-listing-watch)"
+    },
+    {
+      "name": "PICKGRID #243",
+      "tokenId": 243,
+      "contract": "0xc2BEAaD13Ef2833D976957E41B03b6B2661cFAB0",
+      "reason": "transfer terkunci s.d. 17 Nov 2026 17:13 WIB"
+    },
+    {
+      "name": "Crop Pals #5449",
+      "tokenId": 5449,
+      "contract": "0xd43f328560aE9bA09B27375d1b83F7FA7A0d091b",
+      "reason": "trading terkunci s.d. 10.000 minted"
+    },
+    {
+      "name": "DIGG Copper Ore id 2",
+      "tokenId": 2,
+      "contract": "0xB6407991b76E712d15EdEF06e125abcC730364F7",
+      "reason": "riwayat blokir preview 351803 \u2014 jangan coba listing"
+    },
+    {
+      "name": "Pokechain #5381",
+      "tokenId": 5381,
+      "contract": "0x4EF929aF00cB93993c3D01834C4DA79200d31e32",
+      "reason": "riwayat blokir preview 351803 \u2014 jangan coba listing"
+    },
+    {
+      "name": "KERNELMONK #509",
+      "tokenId": 509,
+      "contract": "0x016b9CE7508628e4Fb19E4fAF3129Fdc41b150d7",
+      "reason": "own market live tapi listedCount=0 (2x baca) \u2014 tidak ada floor, tidak bisa di-list mengikuti floor"
+    },
+    {
+      "name": "BYTEBLOOM #508",
+      "tokenId": 508,
+      "contract": "0x74bbDAD7c027C56bE30A7fEaC6F7371B95f1c32B",
+      "reason": "own market live tapi listedCount=0 (2x baca) \u2014 tidak ada floor, tidak bisa di-list mengikuti floor"
+    },
+    {
+      "name": "ORBITJANITOR #552",
+      "tokenId": 552,
+      "contract": "0x8d5a0555446d37afaba75e36da318646a4b32420",
+      "reason": "own market live tapi listedCount=0 (2x baca) \u2014 tidak ada floor, tidak bisa di-list mengikuti floor"
+    },
+    {
+      "name": "RIMEVAULT #504",
+      "tokenId": 504,
+      "contract": "0x96e879c79b1191a0954022c7483c44b2ee522ba1",
+      "reason": "own market live tapi listedCount=0 (2x baca) \u2014 tidak ada floor, tidak bisa di-list mengikuti floor"
+    },
+    {
+      "name": "MYCELIX #508",
+      "tokenId": 508,
+      "contract": "0xb1636010fb87f50574f76f6644b7cd306a6a4d1f",
+      "reason": "own market live tapi listedCount=0 (2x baca) \u2014 tidak ada floor, tidak bisa di-list mengikuti floor"
+    },
+    {
+      "name": "DRIFTWIRE #745",
+      "tokenId": 745,
+      "contract": "0x485be9daa4620fcee4e2baed7cc85ea57acb44b0",
+      "reason": "own market live tapi listedCount=0 (2x baca) \u2014 tidak ada floor, tidak bisa di-list mengikuti floor"
+    },
+    {
+      "name": "Jinchan #305",
+      "tokenId": 305,
+      "contract": "0xccc127D1A7Ef1e385757784a9878F7279BF3B19D",
+      "reason": "market built-in live (nft() cocok, minPrice 0,0001 BNB, listing fee 0,0001 BNB) tapi getListing(0-9) semua kosong dan tidak ada view enumerasi/floor \u2014 floor tidak terverifikasi"
+    },
+    {
+      "name": "Lumen Genesis #2321",
+      "tokenId": 2321,
+      "contract": "0xC996A35D6dA945519eF5d3572C5A8cdc845AE842",
+      "reason": "market 0xcA67924b905e89f98651E2d9FF69bBA2fbb9cF73 TIDAK terverifikasi Sourcify (404); listedCount() revert; listings(2321)=(0,0) token tidak ter-listing; tidak ada view floor/enumerasi \u2014 floor tidak terverifikasi"
+    },
+    {
+      "name": "Oddlode Drills #814",
+      "tokenId": 814,
+      "contract": "0xce18531F9F639ca2351CA15FB2032D925b917472",
+      "reason": "market = kontrak NFT sendiri; isListed(814)=false; tidak ada view enumerasi/listedCount \u2014 floor tidak terverifikasi"
+    },
+    {
+      "name": "Agentic Bull #322",
+      "tokenId": 322,
+      "contract": "0xcd4472Af68801DE87E970A333C71da5d12E825A3",
+      "reason": "situs agentic-bull.pages.dev dicek: hanya FAQ royalti secondary (ERC-2981 5%), tidak ada market/kontrak market"
+    },
+    {
+      "name": "Merith #1144",
+      "tokenId": 1144,
+      "contract": "0x3dF52d687a7a5F79Fc1BE45fECD1B2Ec1Df622A7",
+      "reason": "situs merith.surge.sh dicek: halaman mint saja (kata 'floor' = Math.floor di JS), tidak ada market"
+    },
+    {
+      "name": "Merith #1145",
+      "tokenId": 1145,
+      "contract": "0x3dF52d687a7a5F79Fc1BE45fECD1B2Ec1Df622A7",
+      "reason": "situs merith.surge.sh dicek: halaman mint saja (kata 'floor' = Math.floor di JS), tidak ada market"
+    },
+    {
+      "name": "Merith #1146",
+      "tokenId": 1146,
+      "contract": "0x3dF52d687a7a5F79Fc1BE45fECD1B2Ec1Df622A7",
+      "reason": "situs merith.surge.sh dicek: halaman mint saja (kata 'floor' = Math.floor di JS), tidak ada market"
+    },
+    {
+      "name": "Merith #1147",
+      "tokenId": 1147,
+      "contract": "0x3dF52d687a7a5F79Fc1BE45fECD1B2Ec1Df622A7",
+      "reason": "situs merith.surge.sh dicek: halaman mint saja (kata 'floor' = Math.floor di JS), tidak ada market"
+    },
+    {
+      "name": "Merith #1148",
+      "tokenId": 1148,
+      "contract": "0x3dF52d687a7a5F79Fc1BE45fECD1B2Ec1Df622A7",
+      "reason": "situs merith.surge.sh dicek: halaman mint saja (kata 'floor' = Math.floor di JS), tidak ada market"
+    },
+    {
+      "name": "THYRK #6849",
+      "tokenId": 6849,
+      "contract": "0x4D90fFC3075FB8897EDFf6d7c6269c906664a20e",
+      "reason": "situs thyrk.fun dicek: seksi market hanya tautan Element (element.market/collections/thyrk-1), tidak ada kontrak market sendiri"
+    },
+    {
+      "name": "ELSY #880",
+      "tokenId": 880,
+      "contract": "0x9e2c16ee581e0d4f0a36ae70205c5599bbb9b22f",
+      "reason": "situs elsy-agent.surge.sh: HANYA halaman mint, tanpa market (catatan snapshot pasca-mint)"
+    },
+    {
+      "name": "ELSY #881",
+      "tokenId": 881,
+      "contract": "0x9e2c16ee581e0d4f0a36ae70205c5599bbb9b22f",
+      "reason": "situs elsy-agent.surge.sh: HANYA halaman mint, tanpa market (catatan snapshot pasca-mint)"
+    },
+    {
+      "name": "FOSSIL DRAWER #581",
+      "tokenId": 581,
+      "contract": "0x747e7ca26921bc1bde97cb27b445983c8269bb72",
+      "reason": "situs fossildrawer.surge.sh: hanya mint page, tidak ada fungsi market di kontrak (catatan snapshot)"
+    },
+    {
+      "name": "BEWORK #1274",
+      "tokenId": 1274,
+      "contract": "0x78eDD42101e889cC3Ce4B24CBb0Fc774082BcAee",
+      "reason": "situs bework.pro dicek: halaman mint saja (kata 'floor' = Math.floor di JS), tidak ada market"
+    },
+    {
+      "name": "BEWORK #1275",
+      "tokenId": 1275,
+      "contract": "0x78eDD42101e889cC3Ce4B24CBb0Fc774082BcAee",
+      "reason": "situs bework.pro dicek: halaman mint saja (kata 'floor' = Math.floor di JS), tidak ada market"
+    },
+    {
+      "name": "HACKOUCOINPASS #539",
+      "tokenId": 539,
+      "contract": "0xA96f20BCeD857d3174Bb40e806b0151daeEaa62e",
+      "reason": "situs hackou.com/coin-pass/ dicek: halaman mint saja, tanpa kata market/listing/floor"
+    },
+    {
+      "name": "LANTERNFIELD #516",
+      "tokenId": 516,
+      "contract": "0x9aab6e84096A780F9400CdD4E230FaA41B4545f2",
+      "reason": "situs lanternfield.surge.sh dicek: halaman mint saja (kata 'floor' = Math.floor di JS), tidak ada market"
+    },
+    {
+      "name": "HOG ORBIT #421",
+      "tokenId": 421,
+      "contract": "0x7bc0b487febcbb1caa781148bf05a8cd72d02ec5",
+      "reason": "tidak ada live venue terverifikasi: situs mint-only, post Boltbook 'no secondary market yet' (catatan snapshot)"
+    },
+    {
+      "name": "Lorith #498",
+      "tokenId": 498,
+      "contract": "0x65B3b58C6fe1B98087b022AB41c54a2987494ddF",
+      "reason": "situs lorith.surge.sh dicek: halaman mint saja (kata 'floor' = Math.floor di JS), tidak ada market"
+    },
+    {
+      "name": "Skunk Hollow #708",
+      "tokenId": 708,
+      "contract": "0x88E4b613609af6C479F11D78e5a696d84B78993B",
+      "reason": "situs skunkhollow.netlify.app: menyatakan NFT bisa dijual tapi tidak menautkan market mana pun, tidak ada kontrak market (catatan snapshot)"
+    },
+    {
+      "name": "Marbleworks #458",
+      "tokenId": 458,
+      "contract": "0xCc844748C64b9b8e45aC4504553C9757c7CDB7E0",
+      "reason": "situs marbleworks.surge.sh dicek: hanya panel klaim ('List my marbles' = klaim, bukan marketplace), tidak ada market"
+    },
+    {
+      "name": "402 #174",
+      "tokenId": 174,
+      "contract": "0xd80D0095746999c93AE837B1DE1569d5814405dC",
+      "reason": "situs 402-mint.netlify.app HTTP 503 (down) \u2014 market tidak dapat diverifikasi"
+    },
+    {
+      "name": "Agent Punks #741",
+      "tokenId": 741,
+      "contract": "0x3B2C00e1dFe1a1B45F93E990fFe56C5dCa4670b7",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Bubblebruin #757",
+      "tokenId": 757,
+      "contract": "0xc205F8c74733D914776D66cBc4Cf10BF701D96Aa",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Cathodex #421",
+      "tokenId": 421,
+      "contract": "0x0AC5591d1B980C7bE16861d722E59E21E2624868",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Cryonyx #407",
+      "tokenId": 407,
+      "contract": "0x787b522d48084A83b8B1b0C206aA4A12B1FD1cc2",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Gearotter #204",
+      "tokenId": 204,
+      "contract": "0xF25E1c4dBE48383e93f5992B2E7FE7331B5a9AD0",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Gelede #540",
+      "tokenId": 540,
+      "contract": "0xA06427Fb1c58fE5313696630383d8A875Eb2a7dE",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Ghoulipop #541",
+      "tokenId": 541,
+      "contract": "0xb2d236EC0473792eC6727e5bf41084Df3eA0137F",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Hachiko #839",
+      "tokenId": 839,
+      "contract": "0x48c977d13ef156475F086F907D8da9583E1E072E",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "HIVE Agents #808",
+      "tokenId": 808,
+      "contract": "0x1458b0C132Fb51BDC65B1Ca7a3BE484BCd9A2f77",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Hotpotsage #398",
+      "tokenId": 398,
+      "contract": "0xEbAdb5Be9692b0BF25E8A5F3351C35DdC58f195d",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Ioforge #486",
+      "tokenId": 486,
+      "contract": "0x259b5Da3f44a44C89bcA5EE2297582c41c758d0F",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Kirinova #377",
+      "tokenId": 377,
+      "contract": "0x68a971C9D2b54Ae86dAF59CD665E40f3E087fb7F",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Lensorb #392",
+      "tokenId": 392,
+      "contract": "0x1edfd1e6c6b132e88f5b09b1dbe025037b5b0539",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Mars Nexus #1448",
+      "tokenId": 1448,
+      "contract": "0xC4059D2F9F6F86695896e68F3E73E1e6cC3791c8",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Mummibo #216",
+      "tokenId": 216,
+      "contract": "0x666830a348414D3E8B2d341D1ec9D562211034af",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Neijuanbo #697",
+      "tokenId": 697,
+      "contract": "0xcc67bDae1457f8B0914FBFD3fD93b4b1831F0401",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Neonkoi #273",
+      "tokenId": 273,
+      "contract": "0x3ADfBBa26d3674477aA21B0CF2E4C2BC643ff85b",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Neonraven #370",
+      "tokenId": 370,
+      "contract": "0xcc5608A7F5A5Bc8F1bEABcD010A8C0066a0243Ae",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Neptuno #203",
+      "tokenId": 203,
+      "contract": "0x6e2dFd975dA6A54d18d1816029C6657454E61c9a",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "NianNian #1195",
+      "tokenId": 1195,
+      "contract": "0x4A2bb7B24C39CA548b050aD0C0aFfea5e6e04aF2",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Phoenixi #207",
+      "tokenId": 207,
+      "contract": "0x0c4370EdE2500511Ec9FD5a7c69c47e7EE4118E4",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Plutopop #516",
+      "tokenId": 516,
+      "contract": "0xE4cA7AaA82253717C0d897C10d58D59821631509",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Ptah POA #29643",
+      "tokenId": 29643,
+      "contract": "0xD87ADb2E47979d6cb323896B1A9320E0dd132213",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Qilinora #689",
+      "tokenId": 689,
+      "contract": "0x952B7C0b8e63B3dB965d49ec91d4Eb73D8BBC264",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "SeanceSociety #326",
+      "tokenId": 326,
+      "contract": "0x8F8705A91cb8af615CE35179B0D33200AdE71DAb",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Servobun #517",
+      "tokenId": 517,
+      "contract": "0xbd297cb5158F4DcA02C336A59556FDBfa6609A70",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Strawhex #628",
+      "tokenId": 628,
+      "contract": "0x61C360b0fA3fef5c61728756e0fb574c66D73663",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "SynapseSquad #184",
+      "tokenId": 184,
+      "contract": "0xD65913933ada0b429de8f17eDBAdf5FA24aa94E2",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Tempestara #656",
+      "tokenId": 656,
+      "contract": "0xDAA48EED214eDBcf1fF76A9540C819b8afe4BED7",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Voltmohawk #936",
+      "tokenId": 936,
+      "contract": "0x06aB825D14454174819E1c08a6E72C4b5bBF78fE",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Veyanth #938",
+      "tokenId": 938,
+      "contract": "0x3f73b5A2B56a16E4204053C6a2CD51f2b3E4188E",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Veyanth #939",
+      "tokenId": 939,
+      "contract": "0x3f73b5A2B56a16E4204053C6a2CD51f2b3E4188E",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Veyanth #940",
+      "tokenId": 940,
+      "contract": "0x3f73b5A2B56a16E4204053C6a2CD51f2b3E4188E",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Xianyulo #507",
+      "tokenId": 507,
+      "contract": "0x5bF46eF8E5e09fFFfd928e30077b4d4674CBA4b0",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Zapcourier #387",
+      "tokenId": 387,
+      "contract": "0x672c1dF4F7121DaCBD3504995441C47d2fAbCdDC",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "DigDown #5361",
+      "tokenId": 5361,
+      "contract": "0xF464550f1d744793893C0ce09b89269Ed726d796",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Vault-Crack #752",
+      "tokenId": 752,
+      "contract": "0x1a7a8BbB49e3e8Cf951996789Fd69d4C7524A2B4",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Ghost Frog #22",
+      "tokenId": 22,
+      "contract": "0x29EE92a8D6Dc62035D0C2b4D53B5df504D3Ebe91",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Agentic Node #1391",
+      "tokenId": 1391,
+      "contract": "0x0691Dd61f84bda232BcD0bd80F6559EcC2c00131",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "HACKED #1395",
+      "tokenId": 1395,
+      "contract": "0xCD355D1191Ce9849B3A935C821A66d9DF37cFE77",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "HACKED #1396",
+      "tokenId": 1396,
+      "contract": "0xCD355D1191Ce9849B3A935C821A66d9DF37cFE77",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Tri333 #590",
+      "tokenId": 590,
+      "contract": "0x157D860e30b6c6d4dC0abe3bD6e66e659A9d524f",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "WAR3 #2511",
+      "tokenId": 2511,
+      "contract": "0x1Aa9797cC762b838388566Daa45A56b1709F4Bbe",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "HokiKoi #64",
+      "tokenId": 64,
+      "contract": "0x74055b4Afe2d8c7347e8D4c0fc23e704405F7A36",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "DRAGON #91",
+      "tokenId": 91,
+      "contract": "0x7F00b3Aa3A3e41dc145180C4ED8a24eE568eaED4",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "DOSSIER #397",
+      "tokenId": 397,
+      "contract": "0xaC3f9A33c653FB3CA49056cFA5eDf19101DeBf97",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "Stampooor #751",
+      "tokenId": 751,
+      "contract": "0xCFB72b0E311796C478c6b74C1cd4592BbAa17aab",
+      "reason": "tidak ada own market terverifikasi di catatan (situs proyek tidak tercatat; cek pagi ini juga tidak menemukan market) \u2014 tidak ditebak dari nama sama; Element hanya fallback manual, bukan executable"
+    },
+    {
+      "name": "BAOracle #4292",
+      "tokenId": 4292,
+      "contract": "0xcBe2DBBFF4264Dc67Bf557c64e29997B82439354",
+      "reason": "DIBAKAR 2026-11-02 (ownerOf revert ERC721NonexistentToken) \u2014 bukan lagi milik agent"
+    },
+    {
+      "name": "Agent Oil Rig #1977",
+      "tokenId": 1977,
+      "contract": "0xF00D595F9fbb8308Fb03eeEC7406e6883B157413",
+      "reason": "STAKED di OilDrilling pool 6 \u2014 ownerOf = kontrak custody 0xce69c5f2a0bba51771351c618b63a220835d2838, bukan wallet agent"
+    },
+    {
+      "name": "Bound #2176",
+      "tokenId": null,
+      "contract": null,
+      "reason": "kontrak tidak ditemukan \u2014 kepemilikan tidak terverifikasi on-chain (catatan inventory lama)"
+    },
+    {
+      "name": "Eagle #1123",
+      "tokenId": null,
+      "contract": null,
+      "reason": "kontrak tidak ditemukan \u2014 kepemilikan tidak terverifikasi on-chain (catatan inventory lama)"
+    },
+    {
+      "name": "Robotic Agent #5349",
+      "tokenId": null,
+      "contract": null,
+      "reason": "kontrak tidak ditemukan \u2014 kepemilikan tidak terverifikasi on-chain (catatan inventory lama)"
+    },
+    {
+      "name": "Mars Plot #9283",
+      "tokenId": null,
+      "contract": null,
+      "reason": "kontrak tidak ditemukan \u2014 kepemilikan tidak terverifikasi on-chain (catatan inventory lama)"
+    },
+    {
+      "name": "SIGILS #1896",
+      "tokenId": null,
+      "contract": null,
+      "reason": "kontrak tidak ditemukan \u2014 kepemilikan tidak terverifikasi on-chain (catatan inventory lama)"
+    },
+    {
+      "name": "WOBBLOKZ #866",
+      "tokenId": null,
+      "contract": null,
+      "reason": "kontrak tidak ditemukan \u2014 kepemilikan tidak terverifikasi on-chain (catatan inventory lama)"
+    },
+    {
+      "name": "Cast Deep #3534",
+      "tokenId": null,
+      "contract": null,
+      "reason": "kontrak tidak ditemukan \u2014 kepemilikan tidak terverifikasi on-chain (catatan inventory lama)"
+    },
+    {
+      "name": "Agent Bunny #4457",
+      "tokenId": null,
+      "contract": null,
+      "reason": "kontrak tidak ditemukan \u2014 kepemilikan tidak terverifikasi on-chain (catatan inventory lama)"
+    },
+    {
+      "name": "Agent Bunny #4458",
+      "tokenId": null,
+      "contract": null,
+      "reason": "kontrak tidak ditemukan \u2014 kepemilikan tidak terverifikasi on-chain (catatan inventory lama)"
+    }
+  ],
+  "ringkasan": {
+    "jumlah_executable": 2,
+    "jumlah_dust": 1,
+    "jumlah_not_listable": 111,
+    "jumlah_agent_terverifikasi": 103,
+    "total_nilai_potensial_bnb_gross": 0.001,
+    "total_nilai_potensial_bnb_net_setelah_fee": 0.00095,
+    "total_nilai_potensial_bnb_note": "hanya ADVAGENT #554 (0,001 BNB gross; net 0,00095 setelah fee 5%). ACAT #1817 tidak masuk angka BNB.",
+    "total_nilai_non_bnb": [
+      {
+        "token": "ACN",
+        "jumlah": 19000,
+        "kontrak_token": "0x0b5a0aafc48b4c56d2ffaafd43fd5a1b344f3d92",
+        "nilai_bnb": null,
+        "alasan": "ACN tanpa pair PCS (getPair ACN/WBNB = 0x0) \u2014 nilai dalam BNB tidak terverifikasi"
+      }
+    ],
+    "total_nilai_dust_bnb_gross": 2.839711249073e-06,
+    "saldo_bnb_agent_live": 0.000934275843132583,
+    "gasPrice_live_gwei": 0.05,
+    "estimasi_gas": {
+      "dasar": "approve ref 46.068 gas (tx approve AGC 11 Nov); list() pasar sederhana diestimasi ~150.000 gas (belum ada receipt list() pasar ini sebagai pembanding \u2014 estimasi, bukan angka terverifikasi)",
+      "approve_per_item_bnb": 2.3e-06,
+      "list_per_item_bnb": 7.5e-06,
+      "per_item_dengan_approval_bnb": 9.800000000000001e-06,
+      "total_2_executable_bnb": 1.9600000000000002e-05,
+      "total_2_executable_bnb_range": [
+        1.7e-05,
+        2.3e-05
+      ],
+      "cukup_dari_saldo": true,
+      "saldo_setelah_gas_estimasi_bnb": 0.000914675843132583
+    },
+    "catatan_penting": [
+      "HANYA 2 dari 103 NFT agent yang bisa di-list di own market mengikuti floor live: ACAT #1817 (19.000 ACN) + ADVAGENT #554 (0,001 BNB). Keduanya butuh approval dulu (setApprovalForAll/approve).",
+      "EMBERANVIL #946 floor-nya debu (0,00000284 BNB) \u2014 gas listing ~2,6x lipat harga floor; jangan di-list.",
+      "6 market kosong (KERNELMONK/BYTEBLOOM/ORBITJANITOR/RIMEVAULT/MYCELIX/DRIFTWIRE) dikonfirmasi ulang listedCount=0 (2x baca) \u2014 tetap tidak ada floor.",
+      "Tidak ada eksekusi dilakukan dalam sweep ini (read-only). Listing butuh preview + otorisasi parent/user per langkah."
+    ]
+  }
+}

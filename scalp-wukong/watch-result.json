@@ -1,0 +1,46 @@
+{
+ "mode": "watching",
+ "round": 1,
+ "checked_at": "2026-11-07 08:42:21",
+ "trigger": false,
+ "signal": null,
+ "checks": {
+  "m5_gt_2": false,
+  "buys_dominant": true,
+  "liq_ok": true,
+  "wbnb_ok": true,
+  "lp_burn_ok": true,
+  "goplus_ok": true,
+  "binance_ok": true,
+  "whales_ok": false
+ },
+ "reason": "gagal: m5_gt_2,whales_ok",
+ "m5_source": "geckoterminal",
+ "price": 0.002576,
+ "m5": 0.0,
+ "h1_buys": 3,
+ "h1_sells": 2,
+ "liq": 40667.23,
+ "wbnb_balance": 0.01,
+ "lp_burn_pct": 99.65,
+ "goplus": {
+  "is_honeypot": "0",
+  "is_mintable": "0",
+  "hidden_owner": "0",
+  "buy_tax": "0.01",
+  "sell_tax": "0.0107"
+ },
+ "binance": {
+  "riskLevel": 0,
+  "hasResult": true,
+  "riskAlert": null,
+  "risk_hit": false
+ },
+ "whales": {
+  "whales": {},
+  "top_free_pct": null,
+  "top_free_addr": null,
+  "method": null,
+  "error": "JSONDecodeError/OSError"
+ }
+}

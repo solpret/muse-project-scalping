@@ -1,0 +1,42 @@
+{
+ "mode": "watching",
+ "round": 5,
+ "checked_at": "2026-11-14 18:11:25 WIB",
+ "trigger": false,
+ "signal": null,
+ "checks": {
+  "mcap_below_400k": false,
+  "m5_positive": true,
+  "liq_ok": true,
+  "buy_vol_dominant": false,
+  "wbnb_ok": false,
+  "goplus_ok": true,
+  "binance_ok": true
+ },
+ "reason": "gagal: mcap_below_400k,buy_vol_dominant,wbnb_ok",
+ "price": 3.135e-06,
+ "mcap": 468004.0,
+ "m5": 0.21,
+ "h1_buys": 40,
+ "h1_sells": 213,
+ "liq": 190907.43,
+ "buys_dominant": false,
+ "vol_error": "swap_flow mati: TimeoutExpired",
+ "h1_vol_proxy": true,
+ "h1_vol_proxy_detail": "h1chg=-3.20% vol=$4,270",
+ "wbnb_balance": 0.0,
+ "lp_error": "unverified: OSError",
+ "goplus": {
+  "is_honeypot": "0",
+  "is_mintable": "1",
+  "hidden_owner": "0",
+  "buy_tax": "0.02",
+  "sell_tax": "0.02"
+ },
+ "binance": {
+  "riskLevel": 1,
+  "hasResult": true,
+  "riskAlert": null,
+  "risk_hit": false
+ }
+}

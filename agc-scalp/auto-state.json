@@ -1,0 +1,197 @@
+{
+ "book_a": {
+  "asset": "AGC",
+  "agc_amount": 991113.2653187367,
+  "wbnb_amount": 0,
+  "entry_usd": 9.314392021751645e-06,
+  "target_usd": null,
+  "stop_usd": null,
+  "note": "BELI MANUAL RONDE 8 2026-11-06 ~08:46 WIB (perintah user 'Beli AGC sekarang setengah dari saldo yang ada', 08:40 WIB \u2014 override satu kali atas HOLD 08:03; HOLD auto-buy TETAP aktif sesudahnya). Buku A beli 487.446,3401 AGC dengan 0,0065486814 WBNB (setengah saldo Buku A). Approve exact tx 0xe4c268ee0c22f2a0251ffb0f1f5f2fdb344e54f265040d1913b043879680b6a0 blok 131922865 status 1 gas 46052; swap swapExactTokensForTokensSupportingFeeOnTransferTokens tx 0xbc5e9d3b5a91d642813dc0649f7d95be0182e676f5c82118bed62134541ec352 blok 131922944 status 1 gas 116913. Entry $0.0000093144 (target $0.0000107116 / stop $0.0000088487); simulasi preview 487.449,257 AGC, min-out 470.056,92. Gate segar saat beli: (a) LOLOS selisih Dex vs reserves 0,049%; (b) LOLOS vol/liq 4,03x; (c) LOLOS wallet bebas max 1,32%; (d) N/A \u2014 order manual, bukan sinyal pantulan; (e) BLOKIR dead-burn 48,26% <50% \u2014 DIEKSEKUSI ATAS PERINTAH LANGSUNG USER yang tahu gate (e) memblokir (preseden tap bypass 08:02); (f) LOLOS GoPlus bersih + Binance LOW 1 tanpa RISK (CAUTION 'User Reported' dikenal); (g) LOLOS round-trip PASS keepPct 95,46% + depth 0,027%. Sesi baw CONNECTED; preview bersih 000000000 (approve + swap). | BELI MANUAL ALL-IN 2026-11-06 ~09:52-10:02 WIB (perintah user 'Beli lagi AGC dengan semua saldo sisa' 09:45 + 'Habiskan saja wbnb nya' 09:51; gas dari BNB native, BUKAN WBNB \u2014 koreksi user 09:50). Buku A beli lagi 503.666,9252 AGC dengan 0,0065486813 WBNB (sisa Buku A; selisih debu -0,0000000611 WBNB vs catatan buku diserap di sini). Approve exact tx 0xaacd95ae214b0b2509d283710ff4ae3fdcd5833ffc2aa17d1d35f77e0edf61fb blok 131932079 status 1 gas 46064 (0,00000290 BNB); swap tx 0x65d77daad39a9c048880eef8282efa1c3a2059fe2fdcabc1fe3e31ab27359fb4 blok 131932179 status 1 gas 106405 (0,00000695 BNB). Entry efektif $0,0000090280 (setelah pajak 2%); simulasi preview 503.254,55 AGC, min-out 487.280,88 \u2014 terima LEBIH dari simulasi (+412,37). Gate segar: (a) LOLOS Dex $0,00000901 vs reserves ~$0,00000899 selisih ~0,2%; (b) LOLOS vol/liq 3,72x; (c) LOLOS wallet bebas max 1,32% (GoPlus); (e) BLOKIR dead-burn ~48% \u2014 dieksekusi atas perintah langsung user (order manual, bukan sinyal scalp); (f) LOLOS GoPlus bersih (bukan honeypot, tax 2%/2%) + Binance LOW 1 tanpa RISK (hanya CAUTION 'User Reported' dikenal); (g) LOLOS round-trip PASS keepPct 95,48% + depth 0,018%. TANPA target/stop \u2014 hold manual (exits_disabled=true tetap berlaku).",
+  "ref_price_usd": 9.314392021751645e-06,
+  "entry_price_usd": 9.314392021751645e-06
+ },
+ "book_b": {
+  "asset": "AGC",
+  "agc_amount": 172192.1209948784,
+  "wbnb_amount": 0,
+  "entry_usd": 9.291584419990074e-06,
+  "target_usd": null,
+  "stop_usd": null,
+  "note": "BELI MANUAL RONDE 8 2026-11-06 ~08:48 WIB (perintah user yang sama). Buku B beli 84.760,0803 AGC dengan 0,0011359355 WBNB (setengah saldo Buku B). Approve exact tx 0x66148ac0f788486ce2dc81ab46408206a49f94321dc697b72b00d4095d2e3cc0 blok 131923036 status 1 gas 46052; swap swapExactTokensForTokensSupportingFeeOnTransferTokens tx 0xeb5b4c1a0de0cce53db38a61cfcd42ad8634f454250ae29c0cdeab435bef534d blok 131923081 status 1 gas 116913. Entry $0.0000092916 (target $0.0000106853 / stop $0.0000088270); simulasi preview 84.668,35 AGC, min-out 81.544,25. Gate/audit/preview sama dengan Buku A. | BELI MANUAL ALL-IN 2026-11-06 ~09:59 WIB (perintah user yang sama). Buku B beli lagi 87.432,0407 AGC dengan 0,0011359355 WBNB (sisa Buku B). Approve exact (tx hash TIDAK terekam \u2014 eksekusi terinterupsi restart service, tapi approve TERBUKTI mendarat via allowance on-chain 0,0011359355 lalu terpakai habis oleh swap; gas approve ~0,00000386 BNB turunan dari selisih saldo BNB); swap tx 0x7b09a26a1e2c9d77fc078277f2522ccaa313f09ae08ef5377767d4e73b1747b0 blok 131932305 status 1 gas 116877 (0,00001004 BNB). Entry efektif $0,0000090217; simulasi preview 87.360,02 AGC, min-out 84.526,27 \u2014 terima lebih (+72,02). Gate/audit/preview sama dengan Buku A. TANPA target/stop \u2014 hold manual.",
+  "ref_price_usd": 9.291584419990074e-06,
+  "entry_price_usd": 9.291584419990074e-06
+ },
+ "gas_reserve_bnb": 0.001,
+ "liq_floor_usd": 192000,
+ "target_pct": 0.15,
+ "stop_pct": 0.05,
+ "lp_burn_pct": 48.1,
+ "last_price_usd": 9.01e-06,
+ "last_m5": -0.38,
+ "last_h1": 10.26,
+ "last_h1_volume_usd": 47357.78,
+ "last_run": "2026-11-06 ~10:02 WIB",
+ "evaluated_trigger_ids": [
+  "1793923419661-8",
+  "1793926319304-1",
+  "1793927786621-1",
+  "1793927942742-2",
+  "1793929309023-3"
+ ],
+ "last_run_note": "BELI MANUAL ALL-IN atas perintah user 09:45/09:51 WIB: seluruh sisa WBNB 0,0096846168 dihabiskan untuk AGC (A 0,0065486813 + B 0,0011359355 + Burn 0,002) \u2014 terima total 745.160,7403 AGC; WBNB kini 0; BNB native 0,00281226 (gas 6 tx total 0,00003579 BNB). Saldo AGC wallet kini 1.743.155,3497 terverifikasi on-chain (klaim 425.788,1890 + posisi trading Ronde 8 572.206,4204 + beli all-in 745.160,7403). TANPA target/stop baru \u2014 seluruh AGC di-hold manual (exits_disabled=true). Otomasi scalp tetap nonaktif.",
+ "stale_wbnb_allowance_note": "Allowance WBNB->router PCS V2 0x10ED43C718714eb63d5aA57B78B54704E256024E kini 0 (terverifikasi: 3 approve exact beli all-in 09:52-10:02 WIB terpakai habis oleh swap masing-masing). TIDAK ada allowance WBNB terbuka. Saldo WBNB wallet = 0.",
+ "pinklock_correction": {
+  "holder": "0x407993575c91ce7643a4d4ccacc9a98c36ee1bbe",
+  "label": "PinkLock Team Finance (kontrak locker, Sourcify exact_match)",
+  "pct": 9.98,
+  "total_locked_agc": 9222950000,
+  "locks": [
+   {
+    "amount": 4200000000,
+    "until": "2027-11-02"
+   },
+   {
+    "amount": 5022950000,
+    "vesting_from": "2026-12-03",
+    "cycle": "bulanan"
+   }
+  ],
+  "effect": "BUKAN whale bebas; dikecualikan dari gate konsentrasi; wallet non-pair terbesar berikutnya 1,40% (lolos, GoPlus segar 06:56 WIB)",
+  "corrected": "2026-11-05 ~11:35 WIB dari screenshot DexScreener user + verifikasi on-chain"
+ },
+ "lp_locked_in_pinklock": 0,
+ "mining_coin": {
+  "note": "AGC koin mining \u2014 emisi klaim Mode A/B terus mengalir, tekanan jual struktural dominan; gate beli tidak pernah mensyaratkan buys>sells absolut, yang dicari pantulan + pelemahan tekanan jual",
+  "since": "2026-11-05 ~11:37 WIB (catatan user)"
+ },
+ "lp_gate": {
+  "rule": "uji substansi (revisi 2026-11-05 ~11:39 WIB): dead-burn>=50% + sisa LP di kontrak tanpa jalur tarik sepihak + tidak ada wallet bebas >5% LP",
+  "dead_pct": 48.1,
+  "minter_lp_pct": 51.86,
+  "minter_lp_note": "withdrawLP hanya posisi sendiri + LOCK 14d, tanpa removeLiquidity/rescue (source Sourcify terverifikasi); keluar hanya via penebusan posisi jatuh tempo 17 & 19 Nov 2026",
+  "largest_free_lp_pct": 0.0272,
+  "status": "MEMBLOKIR beli baru (dead-burn 48,10% < 50%); bypass 08:02 DI-SUPERSED oleh HOLD 08:03, tidak aktif selama hold; sub-gate (ii) minter tanpa jalur tarik sepihak + (iii) LP bebas <=5% tetap berlaku dan LOLOS",
+  "checked": "2026-11-06 09:06 WIB (GoPlus segar: dead 48,10%, minter 51,86%, LP bebas terbesar 0,0272%; bukan honeypot, cannot_sell_all 0, pajak 2%/2%, is_mintable=1 dicatat risiko; gate (c) wallet bebas terbesar 1,32%)"
+ },
+ "gate_e_bypass": {
+  "active": false,
+  "decided": "2026-11-06 ~08:02 WIB",
+  "source": "tap user 'Eksekusi walau gate (e) masih blokir' (widget 08:00 WIB)",
+  "scope": "beli pantulan AGC (BACOT SCALPING) walau dead-burn LP < 50% (48,85% saat keputusan)",
+  "still_blocking": "gate (a)(b)(c)(d)(f)(g) + guard eksekusi (audit, preview bersih, round-trip, SupportingFee) + sub-gate (e)(ii) minter tanpa jalur tarik sepihak + (e)(iii) LP bebas <=5%",
+  "ends_when": "user mencabut, atau dead-burn pulih >= 50%",
+  "superseded_by": "HOLD 2026-11-06 ~08:03 WIB (user: 'Tahan saja dulu sampai menurut analisamu maksimal profit') \u2014 bypass TIDAK AKTIF selama hold"
+ },
+ "execution_hold": {
+  "active": true,
+  "decided": "2026-11-06 ~08:03 WIB",
+  "source": "user: 'Tahan saja dulu sampai menurut analisamu maksimal profit'",
+  "scope": "beli pantulan AGC (BACOT SCALPING) DITAHAN \u2014 jangan eksekusi buy walau sinyal + gate lolos; pantauan + notifikasi bounce tetap jalan; parent menilai entry maksimal-profit",
+  "ends_when": "user perintahkan lain (mis. 'eksekusi' / cabut hold)"
+ },
+ "last_m5_live": -0.46,
+ "bnb_native_note": "BNB native 0,00281226 terverifikasi on-chain ~10:02 WIB (pasca beli all-in: 0,00284805 - gas 6 tx 0,00003579). Cadangan gas ~0,001 BNB tetap aman (cukup ~80+ tx klaim/swap).",
+ "unbooked_claimed_agc": {
+  "amount": 425788.189,
+  "note": "KOREKSI 2026-11-06 ~10:02 WIB: porsi klaim kini 425.788,1890 = 368.854,0244 (s.d. 08:48) + 56.934,1646 klaim Mode B 09:25 WIB (tx 0x8df63566ac76ff75e779bf7b2ae079d533462b3a41460e6436b928751207b46c). Total wallet AGC 1.743.155,3497 = klaim 425.788,1890 + posisi trading Ronde 8 572.206,4204 + beli manual all-in 745.160,7403. PINDAH 2026-11-06 ~10:24 WIB: seluruh 1.743.155,3497 AGC (klaim + trading) dikirim ke wallet ketiga 0x71bc...e235 (tx 0x0a4939e0...); saldo AGC wallet utama kini 0."
+ },
+ "stale_allowance_note": "Allowance WBNB->router PCS V2 0x10ED43C718714eb63d5aA57B78B54704E256024E kini 0 (terverifikasi: 3 approve exact beli all-in 09:52-10:02 WIB terpakai habis oleh swap masing-masing). TIDAK ada allowance WBNB terbuka. Saldo WBNB wallet = 0.",
+ "stop_usd_override": {
+  "ronde": 8,
+  "stop_usd": 7.5e-06,
+  "decided": "2026-11-06 ~08:54 WIB",
+  "source": "user: 'Ganti target stop AGC ke 0.0000075' + 'Ayo kita lebarkan'",
+  "scope": "Ronde 8 saja (kedua buku) \u2014 stop tetap $0,0000075, BUKAN -5% entry (A $0,0000088487 / B $0,0000088270). Target tetap +15%. Ronde berikutnya kembali ke aturan -5% kecuali user perintahkan lain.",
+  "note": "Perintah ini juga memperbaiki watcher: field ref_price_usd/entry_price_usd yang dibaca live-watcher.js ternyata HILANG dari state (tidak ada penulisnya di file mana pun) sehingga trigger target/stop Ronde 8 bisu; field kini ditambahkan + watcher diperbarui memakai stop_usd bila ada (fallback ref*0.95) + restart."
+ },
+ "target_usd_override": {
+  "ronde": 8,
+  "target_usd_a": 1.862878404350329e-05,
+  "target_usd_b": 1.858316883998015e-05,
+  "decided": "2026-11-06 ~08:56 WIB",
+  "source": "user tap 'Target 2x harga entry (~$0,0000186)'",
+  "scope": "Ronde 8 saja (kedua buku) \u2014 target = 2x harga entry, menggantikan +15% (A $0,0000107116 / B $0,0000106853). Stop tetap $0,0000075 (amendment 08:54). Ronde berikutnya kembali ke +15%/-5% kecuali user perintahkan lain."
+ },
+ "scalp_stopped": {
+  "stopped": "2026-11-06 ~09:08 WIB",
+  "source": "user: 'Hentikan dulu project Bacot scalp biar saya yang ambil alih disini'",
+  "scope": "SELURUH otomasi BACOT SCALPING dihentikan sementara \u2014 cron agc-scalp-auto + burn-scalp-auto + watchdog watcher DINONAKTIFKAN, hook agc-live-trigger DINONAKTIFKAN, live-watcher.js dimatikan (PID 29908). TIDAK ADA penjualan saat penghentian.",
+  "positions": "Posisi Ronde 8 TETAP di wallet utama (bukan dijual): AGC 941.060,4449 terverifikasi on-chain (klaim 368.854,02 + Buku A 487.446,34 + Buku B 84.760,08). Target Ronde 8 (2x entry) + stop $0,0000075 tetap tercatat di state/pnl \u2014 berlaku bila otomasi dihidupkan lagi. Buku Burn tetap 0,002 WBNB, tanpa posisi.",
+  "still_running": "Klaim AGC terjadwal TIDAK dihentikan (bukan scalp): Mode B 4 jam (~09:21), harian 09:37, Mode A idx5 11:15. User ambil alih scalp secara manual.",
+  "resume": "Hidupkan lagi hanya atas perintah user ('lanjutkan' / 'aktifkan lagi'): enable cron agc-scalp-auto + burn-scalp-auto + watchdog, enable hook agc-live-trigger, start live-watcher.js dari parent (nohup + disown)."
+ },
+ "exits_disabled": true,
+ "exits_disabled_note": {
+  "decided": "2026-11-06 ~09:10 WIB",
+  "source": "user: 'Untuk AGC tutup semua stop dan target, saya akan hold dulu'",
+  "scope": "Semua stop + target jual AGC DITUTUP \u2014 target 2x (A $0,0000186288 / B $0,0000185832) dan stop $0,0000075 tidak berlaku lagi. Posisi TETAP di wallet dan di-hold manual oleh user. Watcher + cron + hook wajib menghormati flag ini (tidak ada fallback jual 1.15/0.95). Berlaku sampai user perintahkan lain.",
+  "previous_values": {
+   "target_usd_a": 1.862878404350329e-05,
+   "target_usd_b": 1.858316883998015e-05,
+   "stop_usd": 7.5e-06
+  }
+ },
+ "manual_buy_allin": {
+  "decided": "2026-11-06 ~09:45-09:51 WIB",
+  "source": "user: 'Beli lagi AGC dengan semua saldo sisa, dan sisakan untuk gas' + koreksi 'Untuk gas bukan wbnb tapi bnb' + 'Habiskan saja wbnb nya'",
+  "scope": "SELURUH sisa WBNB 0,009684616838908521 dihabiskan untuk AGC (Buku A 0,006548681338908521 + Buku B 0,0011359355 + Buku Burn 0,002); gas dibayar dari BNB native 0,00284805 (bukan dari WBNB). TANPA target/stop \u2014 hold manual.",
+  "total_wbnb_spent": 0.00968461683890852,
+  "total_agc_received": 745160.7403,
+  "total_gas_bnb": 3.579e-05,
+  "wbnb_after": 0,
+  "bnb_native_after": 0.00281226,
+  "agc_wallet_after": 1743155.3497,
+  "avg_entry_usd": 9.025e-06,
+  "bnb_usd_rate": 694.36,
+  "bnb_usd_source": "CoinGecko 2026-11-06 ~09:47 WIB",
+  "books": {
+   "A": {
+    "wbnb": 0.006548681338908521,
+    "agc": 503666.9252,
+    "entry_usd": 9.028e-06,
+    "approve_tx": "0xaacd95ae214b0b2509d283710ff4ae3fdcd5833ffc2aa17d1d35f77e0edf61fb",
+    "approve_block": 131932079,
+    "swap_tx": "0x65d77daad39a9c048880eef8282efa1c3a2059fe2fdcabc1fe3e31ab27359fb4",
+    "swap_block": 131932179,
+    "gas_bnb": 9.85e-06
+   },
+   "B": {
+    "wbnb": 0.0011359355,
+    "agc": 87432.0407,
+    "entry_usd": 9.0217e-06,
+    "approve_tx": "UNRECORDED (interrupted call; landed, proven by allowance)",
+    "swap_tx": "0x7b09a26a1e2c9d77fc078277f2522ccaa313f09ae08ef5377767d4e73b1747b0",
+    "swap_block": 131932305,
+    "gas_bnb": 1.39e-05
+   },
+   "Burn": {
+    "wbnb": 0.002,
+    "agc": 154061.7744,
+    "entry_usd": 9.0143e-06,
+    "approve_tx": "0x1b65ede789b1a0e1088dc782023bf7c23cb2ec4114588feb7dfe282f19c56d73",
+    "approve_block": 131932326,
+    "swap_tx": "0x05681ca7bc4ecfb8d9f27f632b1379599a538e4aee8bfc985ee8965a4176f982",
+    "swap_block": 131932356,
+    "gas_bnb": 1.204e-05
+   }
+  },
+  "gates": "(a) LOLOS ~0,2% (b) LOLOS 3,72x (c) LOLOS 1,32% (e) BLOKIR ~48% dead-burn \u2014 override perintah langsung user (f) LOLOS GoPlus + Binance LOW 1 tanpa RISK (g) LOLOS round-trip keepPct 95,48%, depth 0,018%. Semua preview bersih 000000000."
+ },
+ "manual_transfer_to_wallet3": {
+  "decided": "2026-11-06 ~10:17 WIB",
+  "source": "user: 'Coba kirim semua saldo AGC saya ke wallet 0x71bcee31054137448e78f2e28dbe3160aae3e235 di tambah bnb senilai $0.5'",
+  "dest": "0x71bcee31054137448e78f2e28dbe3160aae3e235 (wallet ketiga user, terkonfirmasi)",
+  "agc_sent": 1743155.3497,
+  "agc_tx": "0x0a4939e0a2c1def097d3258a93a254eabdbecccac5ba513e0397d32ab4dd2e65",
+  "agc_block": 131935678,
+  "agc_gas_bnb": 3.81e-06,
+  "bnb_sent": 0.00072089,
+  "bnb_sent_usd": 0.5,
+  "bnb_price_usd": 693.59,
+  "bnb_tx": "0x4af8cfc4e7b0851b7dd377fc8b096fdec24929ce4c563ba51a742b790dfccf8f",
+  "bnb_block": 131935701,
+  "bnb_gas_bnb": 1.51e-06,
+  "verified": "receipt status 1 kedua tx; saldo AGC wallet utama 0; AGC wallet ketiga 1.743.155,3497 (penuh, tanpa pajak transfer); BNB wallet utama 0,00208606; BNB wallet ketiga 0,00075179 (sudah ada saldo ~0,0000309 sebelumnya)",
+  "note": "Seluruh AGC (klaim 425.788,1890 + trading 1.317.367,1607) kini di wallet ketiga; posisi tetap hold manual tanpa stop/target. Klaim AGC terjadwal (Mode A idx5 11:15 hari ini, Mode B 4-jam) tetap masuk ke WALLET UTAMA \u2014 bukan wallet ketiga."
+ }
+}

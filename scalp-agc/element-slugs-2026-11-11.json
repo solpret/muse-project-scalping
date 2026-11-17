@@ -1,0 +1,499 @@
+{
+  "generated_wib": "2026-11-11 07:18 WIB",
+  "found": [
+    {
+      "name": "THYRK",
+      "contract": "0x4D90fFC3075FB8897EDFf6d7c6269c906664a20e",
+      "token_ids": [
+        6849
+      ],
+      "slug": "thyrk-1",
+      "url": "https://element.market/collections/thyrk-1",
+      "evidence": "Pre-resolved: validasi browser menunjukkan floor 0.000115 BNB di halaman slug ini; situs thyrk.fun menautkan koleksi Element ini."
+    }
+  ],
+  "not_found": [
+    {
+      "name": "Agent Punks",
+      "contract": "0x3b2c00e1dfe1a1b45f93e990ffe56c5dca4670b7",
+      "token_ids": [
+        741
+      ],
+      "note": "Pre-resolved: tidak ditemukan via pencarian + URL element.market/collections/<kontrak> = 404."
+    },
+    {
+      "name": "Agentic Bull",
+      "contract": "0xcd4472af68801de87e970a333c71da5d12e825a3",
+      "token_ids": [
+        322
+      ],
+      "note": "Hasil pencarian hanya BULLENCIAGA 'The Herd' (Solana) dan Bull Art NFT (Polygon) \u2014 proyek berbeda."
+    },
+    {
+      "name": "Agentic Node",
+      "contract": "0x0691dd61f84bda232bcd0bd80f6559ecc2c00131",
+      "token_ids": [
+        1391
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "BEWORK",
+      "contract": "0x78edd42101e889cc3ce4b24cbb0fc774082bcaee",
+      "token_ids": [
+        1274,
+        1275
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Bubblebruin",
+      "contract": "0xc205f8c74733d914776d66cbc4cf10bf701d96aa",
+      "token_ids": [
+        757
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Cathodex",
+      "contract": "0x0ac5591d1b980c7be16861d722e59e21e2624868",
+      "token_ids": [
+        421
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Cryonyx",
+      "contract": "0x787b522d48084a83b8b1b0c206aa4a12b1fd1cc2",
+      "token_ids": [
+        407
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "DOSSIER",
+      "contract": "0xac3f9a33c653fb3ca49056cfa5edf19101debf97",
+      "token_ids": [
+        397
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "DRAGON",
+      "contract": "0x7f00b3aa3a3e41dc145180c4ed8a24ee568eaed4",
+      "token_ids": [
+        91
+      ],
+      "note": "Hasil pencarian hanya proyek Dragon lain (BaseScan) + review Element generik \u2014 bukan koleksi DRAGON BSC."
+    },
+    {
+      "name": "DRIFTWIRE",
+      "contract": "0x485be9daa4620fcee4e2baed7cc85ea57acb44b0",
+      "token_ids": [
+        745
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "DigDown",
+      "contract": "0xf464550f1d744793893c0ce09b89269ed726d796",
+      "token_ids": [
+        5361
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Gearotter",
+      "contract": "0xf25e1c4dbe48383e93f5992b2e7fe7331b5a9ad0",
+      "token_ids": [
+        204
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Gelede",
+      "contract": "0xa06427fb1c58fe5313696630383d8a875eb2a7de",
+      "token_ids": [
+        540
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Ghost Frog",
+      "contract": "0x29ee92a8d6dc62035d0c2b4d53b5df504d3ebe91",
+      "token_ids": [
+        22
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Ghoulipop",
+      "contract": "0xb2d236ec0473792ec6727e5bf41084df3ea0137f",
+      "token_ids": [
+        541
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "HACKED",
+      "contract": "0xcd355d1191ce9849b3a935c821a66d9df37cfe77",
+      "token_ids": [
+        1395,
+        1396
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "HIVE Agents",
+      "contract": "0x1458b0c132fb51bdc65b1ca7a3be484bcd9a2f77",
+      "token_ids": [
+        808
+      ],
+      "note": "Hasil pencarian hanya HivePunkz (Base chain) \u2014 proyek berbeda, bukan BSC HIVE Agents."
+    },
+    {
+      "name": "Hachiko",
+      "contract": "0x48c977d13ef156475f086f907d8da9583e1e072e",
+      "token_ids": [
+        839
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "HokiKoi",
+      "contract": "0x74055b4afe2d8c7347e8d4c0fc23e704405f7a36",
+      "token_ids": [
+        64
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Hotpotsage",
+      "contract": "0xebadb5be9692b0bf25e8a5f3351c35ddc58f195d",
+      "token_ids": [
+        398
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Ioforge",
+      "contract": "0x259b5da3f44a44c89bca5ee2297582c41c758d0f",
+      "token_ids": [
+        486
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Jinchan",
+      "contract": "0xccc127d1a7ef1e385757784a9878f7279bf3b19d",
+      "token_ids": [
+        305
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "KERNELMONK",
+      "contract": "0x016b9ce7508628e4fb19e4faf3129fdc41b150d7",
+      "token_ids": [
+        509
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Kirinova",
+      "contract": "0x68a971c9d2b54ae86daf59cd665e40f3e087fb7f",
+      "token_ids": [
+        377
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "LANTERNFIELD",
+      "contract": "0x9aab6e84096a780f9400cdd4e230faa41b4545f2",
+      "token_ids": [
+        516
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Lensorb",
+      "contract": "0x1edfd1e6c6b132e88f5b09b1dbe025037b5b0539",
+      "token_ids": [
+        392
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Lorith",
+      "contract": "0x65b3b58c6fe1b98087b022ab41c54a2987494ddf",
+      "token_ids": [
+        498
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Lumen Genesis",
+      "contract": "0xc996a35d6da945519ef5d3572c5a8cdc845ae842",
+      "token_ids": [
+        2321
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "MYCELIX",
+      "contract": "0xb1636010fb87f50574f76f6644b7cd306a6a4d1f",
+      "token_ids": [
+        508
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Marbleworks",
+      "contract": "0xcc844748c64b9b8e45ac4504553c9757c7cdb7e0",
+      "token_ids": [
+        458
+      ],
+      "note": "Hasil pencarian hanya 'Marbledworks' (studio marmer Jerman) \u2014 proyek berbeda, bukan NFT BSC."
+    },
+    {
+      "name": "Mars Nexus",
+      "contract": "0xc4059d2f9f6f86695896e68f3e73e1e6cc3791c8",
+      "token_ids": [
+        1448
+      ],
+      "note": "Hasil pencarian hanya Mars Genesis (Ethereum) \u2014 proyek berbeda, bukan BSC Mars Nexus."
+    },
+    {
+      "name": "Merith",
+      "contract": "0x3df52d687a7a5f79fc1be45fecd1b2ec1df622a7",
+      "token_ids": [
+        1144,
+        1145,
+        1146,
+        1147,
+        1148
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Mummibo",
+      "contract": "0x666830a348414d3e8b2d341d1ec9d562211034af",
+      "token_ids": [
+        216
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Neijuanbo",
+      "contract": "0xcc67bdae1457f8b0914fbfd3fd93b4b1831f0401",
+      "token_ids": [
+        697
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Neonkoi",
+      "contract": "0x3adfbba26d3674477aa21b0cf2e4c2bc643ff85b",
+      "token_ids": [
+        273
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Neonraven",
+      "contract": "0xcc5608a7f5a5bc8f1beabcd010a8c0066a0243ae",
+      "token_ids": [
+        370
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Neptuno",
+      "contract": "0x6e2dfd975da6a54d18d1816029c6657454e61c9a",
+      "token_ids": [
+        203
+      ],
+      "note": "Hasil pencarian hanya Neptune Mutual / Neptunity \u2014 proyek berbeda."
+    },
+    {
+      "name": "NianNian",
+      "contract": "0x4a2bb7b24c39ca548b050ad0c0affea5e6e04af2",
+      "token_ids": [
+        1195
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "ORBITJANITOR",
+      "contract": "0x8d5a0555446d37afaba75e36da318646a4b32420",
+      "token_ids": [
+        552
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Oddlode Drills",
+      "contract": "0xce18531f9f639ca2351ca15fb2032d925b917472",
+      "token_ids": [
+        814
+      ],
+      "note": "Pencarian hanya mengembalikan database pengeboran non-kripto \u2014 tidak ada jejak NFT/Element."
+    },
+    {
+      "name": "Phoenixi",
+      "contract": "0x0c4370ede2500511ec9fd5a7c69c47e7ee4118e4",
+      "token_ids": [
+        207
+      ],
+      "note": "Hasil pencarian hanya panduan Phoenix Safe + halaman market Cosmic Sentinel sendiri (Element SDK, bukan URL koleksi Element)."
+    },
+    {
+      "name": "Plutopop",
+      "contract": "0xe4ca7aaa82253717c0d897c10d58d59821631509",
+      "token_ids": [
+        516
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Ptah POA",
+      "contract": "0xd87adb2e47979d6cb323896b1a9320e0dd132213",
+      "token_ids": [
+        29643
+      ],
+      "note": "Berita Ptah Relics terkonfirmasi (100.000 sold out, floor $23) tapi tidak ada URL koleksi Element yang muncul di hasil pencarian."
+    },
+    {
+      "name": "Qilinora",
+      "contract": "0x952b7c0b8e63b3db965d49ec91d4eb73d8bbc264",
+      "token_ids": [
+        689
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "RIMEVAULT",
+      "contract": "0x96e879c79b1191a0954022c7483c44b2ee522ba1",
+      "token_ids": [
+        504
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "SeanceSociety",
+      "contract": "0x8f8705a91cb8af615ce35179b0d33200ade71dab",
+      "token_ids": [
+        326
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Servobun",
+      "contract": "0xbd297cb5158f4dca02c336a59556fdbfa6609a70",
+      "token_ids": [
+        517
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Stampooor",
+      "contract": "0xcfb72b0e311796c478c6b74c1cd4592bbaa17aab",
+      "token_ids": [
+        751
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Strawhex",
+      "contract": "0x61c360b0fa3fef5c61728756e0fb574c66d73663",
+      "token_ids": [
+        628
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "SynapseSquad",
+      "contract": "0xd65913933ada0b429de8f17edbadf5fa24aa94e2",
+      "token_ids": [
+        184
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Tempestara",
+      "contract": "0xdaa48eed214edbcf1ff76a9540c819b8afe4bed7",
+      "token_ids": [
+        656
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Tri333",
+      "contract": "0x157d860e30b6c6d4dc0abe3bd6e66e659a9d524f",
+      "token_ids": [
+        590
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Vault-Crack",
+      "contract": "0x1a7a8bbb49e3e8cf951996789fd69d4c7524a2b4",
+      "token_ids": [
+        752
+      ],
+      "note": "Hasil pencarian hanya Team Liquid 'Crack the Vault' (Sui) + Bitlayer Lucky Helmet \u2014 proyek berbeda."
+    },
+    {
+      "name": "Veyanth",
+      "contract": "0x3f73b5a2b56a16e4204053c6a2cd51f2b3e4188e",
+      "token_ids": [
+        938,
+        939,
+        940
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Voltmohawk",
+      "contract": "0x06ab825d14454174819e1c08a6e72c4b5bbf78fe",
+      "token_ids": [
+        936
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "WAR3",
+      "contract": "0x1aa9797cc762b838388566daa45a56b1709f4bbe",
+      "token_ids": [
+        2511
+      ],
+      "note": "Hasil pencarian hanya Warcraft 3 / WoW TCG \u2014 proyek berbeda."
+    },
+    {
+      "name": "Xianyulo",
+      "contract": "0x5bf46ef8e5e09ffffd928e30077b4d4674cba4b0",
+      "token_ids": [
+        507
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    },
+    {
+      "name": "Zapcourier",
+      "contract": "0x672c1df4f7121dacbd3504995441c47d2fabcddc",
+      "token_ids": [
+        387
+      ],
+      "note": "Tidak ada halaman koleksi Element yang ditemukan via pencarian web (query site:element.market dan \"element.market/collections\" + nama proyek)."
+    }
+  ],
+  "ambiguous": [
+    {
+      "name": "BYTEBLOOM",
+      "contract": "0x74bbdad7c027c56be30a7feac6f7371b95f1c32b",
+      "token_ids": [
+        508
+      ],
+      "note": "Nama sama 'Byte Bloom' ditemukan sebagai token di Base chain (kontrak 0xad32c30dc75a9f8d68811b6296645975cf124425, thebittimes.com) \u2014 chain dan kontrak berbeda dari NFT BSC ini, dan tidak ada URL koleksi Element untuk BYTEBLOOM BSC. Bukan hit; dicatat ambiguous, bukan found."
+    }
+  ]
+}

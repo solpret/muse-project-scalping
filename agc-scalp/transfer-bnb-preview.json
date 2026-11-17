@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "data": {
+    "requestId": "70394df5717646e9a8410319a1c442ad",
+    "parsedTx": {
+      "transactionType": "Send",
+      "amount": 720886979339379,
+      "isMax": false,
+      "recipient": "0x71bcee31054137448e78f2e28dbe3160aae3e235",
+      "contractAddress": null,
+      "memo": null,
+      "transactionTypeTranslationKey": null
+    },
+    "simulationResult": {
+      "gasTokenFromData": 720886979339379,
+      "balanceChanges": [
+        {
+          "contractAddress": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "change": -720886979339379,
+          "owner": "0xeb237f6f9fb4e826739f0954e9768914f28b2c2e",
+          "tokenType": "Native",
+          "tokenId": null
+        }
+      ],
+      "simulationErrorDetail": null,
+      "simulationCode": "000000000",
+      "preCheckCode": "",
+      "authorityChanges": [],
+      "allowanceChanges": []
+    },
+    "risks": {
+      "addresses": {},
+      "riskDetails": [],
+      "riskBehaviors": []
+    },
+    "tokenInfos": {
+      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+        "name": "BNB Chain Native Token",
+        "symbol": "BNB",
+        "decimals": 18,
+        "icon": "/images/web3-data/public/token/logos/8281427b22444c8881ffcc3c4c56c2d3.png",
+        "price": "693.257952062799565733688908651456885739"
+      }
+    },
+    "requireConfirmation": false,
+    "expiresAt": 1793935515304,
+    "gasLimit": null
+  }
+}

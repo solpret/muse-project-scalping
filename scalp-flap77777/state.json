@@ -1,0 +1,413 @@
+{
+ "seen": {
+  "0xec6ff33b1e6c28d832baa950b6569858d4e27777": {
+   "name": "1091547907\u65b0\u8774\u8776\u4eba\u751f",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x33afb9993020ca20ec0e0323f978b9c4004f7777": {
+   "name": "BAN Agent",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xfb815c3ce0201c7b401906574531f5f0ad187777": {
+   "name": "\u5927\u59e8\u592b",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xa34c9373c5782a3971f1b40c75b1f11798b17777": {
+   "name": "1091547907\u65b0\u8774\u8776\u4eba\u751f",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xb2a4ac3f19f9cc79a46cbc00d2bc7a1453f27777": {
+   "name": "\u8d22\u795e\u7237",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x94fa1fe4c9479d7041a794b4f3005b1630317777": {
+   "name": "MSN",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x0aa4f116014fc09490fd4b5766f5c94c6c377777": {
+   "name": "\u5e01\u5b89\u4eba\u751f",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": true,
+   "reported": false
+  },
+  "0xa2d8e6d7352573dc3bfb2ac334a4d1df4fca7777": {
+   "name": "NSK",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xd118c0b4a2f602f83d716d6fa69f012e32997777": {
+   "name": "MSN",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x771b8e0bb87751025e43f44fbca1645c3b6c7777": {
+   "name": "\u5947\u8ff9",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xc6e58d06ae175f291a785b16aa52d5e163587777": {
+   "name": "\u5947\u8ff9",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x9906a6c03c36d8a2195692e56fd23554d9507777": {
+   "name": "\u8774\u8776\u9996\u4e2a\u80a1\u7968\u4ee3\u5e01",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xb67f163c656fc953fc468ff9c78fc5522b827777": {
+   "name": "Proof of Liquidity",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x91bf5d2c1cfe35007ed39b15da3d6cb9d8897777": {
+   "name": "OSK",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x74f46099f6d3b29dd212362dda1f5fe1c7877777": {
+   "name": "YFI",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": true,
+   "reported": false
+  },
+  "0x69ee24782108c0d84b9f3abffdee84b548c37777": {
+   "name": "core",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xf3ade84816c0e53e56a1d69325bbf65088ee7777": {
+   "name": "YYDS",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xeb67ab3a136d3634338237e6d7461c4176777777": {
+   "name": "GOUT",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": true,
+   "reported": false
+  },
+  "0xd6715862992b5387a55f0ca5b9ef556a80167777": {
+   "name": "\u5938\u7236\u8ffd\u65e5",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xbac612fc84ef23d7c96cb94ca2b302c423e97777": {
+   "name": "DEF token",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x4d747a295791f8723de10114c24b5add69807777": {
+   "name": "\u7f8a\u5934",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x04d7c5eae4e3fff0552cd732d357f4483f557777": {
+   "name": "Degen",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xcc9b660828804515789af50fcc97b57e90317777": {
+   "name": "YYDS",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xbd656393c3c3f181769a52d7d75df487ce2e7777": {
+   "name": "MODA",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xe3fa579901209fc1e6fd025853cd3dd497017777": {
+   "name": "\u76d8\u53e4",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x639725b174f7b7ceab8b084a9548cda104ea7777": {
+   "name": "\u8774\u8776\u4eba\u751f",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xfead44c70c51a03d3c14b257dfc69b0b0e227777": {
+   "name": "WUKONG",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x58fcb45bfcff36e9242d4f7961ff8dfc3fe27777": {
+   "name": "PYRIVA",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x6c8c5a3fff7b944adbd0654c14a1348b7b087777": {
+   "name": "888",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x7618985d84e65d4abdfbe599a85e3b9b80827777": {
+   "name": "DAK",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x383423b44739ead94e0e5de6295dd7c6677c7777": {
+   "name": "CORLAYFI",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x5b4e54410b5768b63a0ee9eae10fff429ea67777": {
+   "name": "CMSN",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x35771285a60b2aa5d4f5acb917cc019ee1df7777": {
+   "name": "MING",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xee1470fd3116347adcb9db8d6bcfbfd0ebb07777": {
+   "name": "\u725b\u6765",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xce988ab06f5b4a1928a2539acf0b8cf6d4227777": {
+   "name": "QQ\u7fa41128711893",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x0b352f67baf167301dcd06781753f0b669c27777": {
+   "name": "\u8774\u8776\u00b7\u5973\u5a32",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xe6fc6c6dfa50c0c815a5eb6d67bc86f47e667777": {
+   "name": "\u5c4e\u58f3\u90ce",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xda41076eea000f933e01137226f785ffb0a77777": {
+   "name": "\u7687\u51a0",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": true,
+   "reported": false
+  },
+  "0x5602989808ea96d5a0ca4a25e6d950d25b5e7777": {
+   "name": "\u5c4e\u58f3\u90ce",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x14b31611c0735d2aea4071b80ef1e80b1c2e7777": {
+   "name": "SnowBall",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x87024c9624a4c3dc62be412ea3b2e5a7a3247777": {
+   "name": "GOUT",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xc9fac4c02d942271e5cfd9316beece7a49b67777": {
+   "name": "\u7a81\u7a81\u8f66",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x96e3e5ce7c87b8c48dbc98d910f423fda8177777": {
+   "name": "\u5e01\u5b89\u8d44\u672c",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": true,
+   "reported": false
+  },
+  "0x489d3c707036dfb7292ca068ea4c727ceb317777": {
+   "name": "BurnKing",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x0d4f456fcf4512f437768189a5822ec24b2b7777": {
+   "name": "Giggle Corla",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x75e69ab218d561a3012db50d8e93ac8de7e67777": {
+   "name": "\u96ea\u7403",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xf2cf4b9320a01703c35574f728c8a8746f637777": {
+   "name": "MarsCoin",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x382aea3a4bb19b8bd30a334ebe882f42e8e17777": {
+   "name": "burn",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xaddbeab68cc49606bcf10a641d47c142ab287777": {
+   "name": "FIST",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x3fd7a7fe44f201ff4e1a534e1de4784276617777": {
+   "name": "dogeking",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x9d28d0d1085bccfd45518d8de73c3b9944e27777": {
+   "name": "babydoge",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x39ac588c1b099d810dcabcd1857faec0202c7777": {
+   "name": "BURN",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x05a06748d2fc7e3ea9500fc37ec4cbbe40767777": {
+   "name": "\u4f55\u5fc5\u4e1c\u5954\u897f\u8d70\uff0c\u5e01\u5b89\u5168\u90e8\u90fd\u6709",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xd7872a864c39049b420f3fd819fa9d051bc07777": {
+   "name": "BNBMOON",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x4afbf5e7b32a1b5fe743f14db55e0f3d830e7777": {
+   "name": "K0",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xbeb06069e4c79693ecba5585f669bc32e1117777": {
+   "name": "\u8003\u62c9",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x0a6f8bdfa93de285af55d57603fd779d7fd27777": {
+   "name": "\u9a74\u6765",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x0a4a0add5568b329d0d86faac92ff741f2a87777": {
+   "name": "corla",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x8a287e0b17bc2f1891ea836eb000b0e2106c7777": {
+   "name": "\u7334\u5b50\u5e01",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x81d4dd28b5959cddaa64fa7139c64ece29837777": {
+   "name": "\u7334\u5b50\u5e01",
+   "first_seen_wib": "2026-11-07 11:33:38 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xf7b013b8efd80c9196b83ae2ca8d6d19f8d27777": {
+   "name": "\u603b\u91cf2100\u5168\u9500\u6bc1\u81f4\u656c\u4e2d\u672c\u806a",
+   "first_seen_wib": "2026-11-07 06:03:54 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x2a632dc39702244dabc3ef552022effacb6b7777": {
+   "name": "babydoge2026\u91cd\u65b0\u95ee\u4e16",
+   "first_seen_wib": "2026-11-07 07:03:54 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x96a08eee73abea57d545b1e7c74b8b3432057777": {
+   "name": "DONKEY",
+   "first_seen_wib": "2026-11-07 07:03:54 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xef549ed53973fbc9ab588b41d63b77b0f6007777": {
+   "name": "Meet CORLA",
+   "first_seen_wib": "2026-11-07 08:03:55 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x8bca3863f2f111411a2719373027b0f134357777": {
+   "name": "VIRUS",
+   "first_seen_wib": "2026-11-07 08:03:55 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x9d063302bb1994dcb4533c37f6b60b4e9cae7777": {
+   "name": "dogeking",
+   "first_seen_wib": "2026-11-07 08:03:55 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0xc97013f5bf5da36c0ff863378f7818e611b97777": {
+   "name": "\u82f9\u679c\u4eba\u751f",
+   "first_seen_wib": "2026-11-07 08:03:55 WIB",
+   "suffix77777": false,
+   "reported": false
+  },
+  "0x4bdc6fc7e01f950a8b752040b23e3355dc5b7777": {
+   "name": "Funds Are Safu",
+   "first_seen_wib": "2026-11-07 08:03:55 WIB",
+   "suffix77777": false,
+   "reported": false
+  }
+ },
+ "seeded": true
+}

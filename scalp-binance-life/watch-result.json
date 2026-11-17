@@ -1,0 +1,38 @@
+{
+ "mode": "watching",
+ "round": 1,
+ "checked_at": "2026-11-14 18:12:43 WIB",
+ "trigger": false,
+ "signal": null,
+ "checks": {
+  "price_range": false,
+  "m5_positive": false,
+  "buys_dominant": false,
+  "liq_ok": true,
+  "wbnb_ok": false,
+  "lp_burn_ok": true,
+  "goplus_ok": true,
+  "binance_ok": true
+ },
+ "reason": "gagal: price_range,m5_positive,buys_dominant,wbnb_ok",
+ "price": 4.39,
+ "m5": -1.03,
+ "h1_buys": 2,
+ "h1_sells": 4,
+ "liq": 17726.39,
+ "wbnb_error": "unverified: OSError",
+ "lp_burn_pct": 99.64,
+ "goplus": {
+  "is_honeypot": "0",
+  "is_mintable": "0",
+  "hidden_owner": "0",
+  "buy_tax": "0.02",
+  "sell_tax": "0.02"
+ },
+ "binance": {
+  "riskLevel": 0,
+  "hasResult": true,
+  "riskAlert": null,
+  "risk_hit": false
+ }
+}

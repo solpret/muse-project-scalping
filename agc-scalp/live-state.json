@@ -1,0 +1,21 @@
+{
+  "updated_at": "2026-11-06T02:08:19.498Z",
+  "mode": "https-polling",
+  "price_usd": 0.000009029698598664058,
+  "price_wbnb": 1.3009555929506971e-8,
+  "dex_price_usd": 0.000009034,
+  "bnb_price_usd": 694.082,
+  "liq_usd": 261156.78040252192,
+  "last_tick_at": "2026-11-06T02:08:19.498Z",
+  "last_dex_at": "2026-11-06T02:07:58.313Z",
+  "m5_change": -0.007783291774823017,
+  "prev_m5_change": 0.002469029848848897,
+  "buys_5m": 27,
+  "sells_5m": 87,
+  "buys_h1": 594,
+  "sells_h1": 1456,
+  "book_a_asset": "AGC",
+  "book_b_asset": "AGC",
+  "consec_rpc_fails": 0,
+  "last_trigger": {}
+}
