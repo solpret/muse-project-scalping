@@ -1,8 +1,8 @@
 # MANIFEST — muse-project-scalping
 
-- **Tanggal:** 17 November 2026
+- **Tanggal:** 20 November 2026
 - **Repo publik:** `muse-project-scalping` — https://github.com/solpret/muse-project-scalping
-- **Ukuran:** 3,1 MB (3.050.792 byte), 43 file
+- **Ukuran:** 3,1 MB (3.074.721 byte), 46 file
 - **Cakupan:** Project BACOT SCALPING — uji scalping (uang asli, kecil).
 
 ## Isi
@@ -32,5 +32,11 @@
 - `*.log`, `*.bak*`, `__pycache__/` — dibuang. State JSON kecil
   (`positions.json`, `state.json`) dipertahankan sebagai bukti uji.
 
+## Pembaruan 2026-11-20 (sejak 17 Nov)
+- Baru: `agc-scalp/live-triggers.jsonl` (72 event stop_hit 5–6 Nov, 21 KB)
+  — log trigger uji AGC, dipertahankan sebagai bukti uji.
+- Pemecahan repo: TIDAK diperlukan — tree 3,1 MB; tidak ada file >90 MB.
+
 ## Audit rahasia
-Bersih (17 Nov 2026): 0 temuan — layak repo publik.
+Bersih (20 Nov 2026, `audit-secret-2026-11-20.txt` di folder induk):
+0 temuan — layak repo publik.
